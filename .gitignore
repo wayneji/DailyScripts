@@ -1,0 +1,5 @@
+# Ignore configuration files with API keys
+config.json
+__pycache__/
+*.pyc
+.DS_Store
