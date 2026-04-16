@@ -1,17 +1,10 @@
-# A Small Problem at Hogwarts
-
+# A Small Adventure in Moana
 *Generated on 2026-04-16*
 
-It was a cold morning at Hogwarts, and the sky was grey. Harry Potter was walking with Hermione Granger to the library. They wanted to finish their homework before lunch. Harry had his books in one hand, and Hermione had a small list of tasks in her pocket.
+The morning was calm and full of promise. Moana was with Maui in the blue ocean near Motunui. They found a basket of festival shells, and that was the start of their adventure.
 
-When they reached the library door, they saw a small sign. It said, “Closed for ten minutes.” Harry looked surprised. “Oh no,” he said. “I need the last book for my lesson.” Hermione looked at the door and thought carefully. Then she saw a house-elf near a tall shelf. It was Dobby.
+Soon, a strong wind pushed their canoe away from the reef. They made a simple plan and followed it one step at a time. Moana said they should stay calm, and Maui agreed. Together they watched, listened, and noticed details that others missed.
 
-Dobby was trying to carry a big pile of books, but one book fell to the floor. Harry picked it up and gave it back to him. Dobby smiled, but he also looked worried. “I am sorry,” he said. “I must move these books before the librarian comes back.”
+At last, they understood what to do. They fixed the problem, protected a basket of festival shells, and helped everyone around them feel safe. When the problem was solved, they smiled and shared the good news.
 
-Harry and Hermione wanted to help. They took two books each, and then they made a simple plan. Hermione carried the light books, and Harry carried the heavy ones. They walked slowly and carefully between the tables. A few books slipped, but they did not give up. Dobby showed them the right shelves, and after that, the work became easier.
-
-Soon, the last book was in the right place. The librarian opened the door and saw everything tidy and clean. She gave them a kind smile and said, “Thank you, children.” Then the library opened again.
-
-Harry found his lesson book, and Hermione found a quiet table. Dobby was very happy because he finished his job on time. Harry felt proud because they helped someone in trouble. Hermione said, “Small help can make a big difference.” Harry agreed.
-
-On that day, they learned that kindness and teamwork are very important. Even a small problem can become easy when friends work together.
+**Lesson:** Bravery grows when you keep moving.
