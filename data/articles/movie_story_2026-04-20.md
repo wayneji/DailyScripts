@@ -1,23 +1,29 @@
-# Harry Potter's Birthday
+# Moana and the Lost Basket
 
-It was Harry Potter’s birthday. The sun was bright over Hogwarts, and the castle looked warm and happy. Harry woke up early in his bed. He smiled because it was a special day, but he did not want a big party. He liked quiet mornings with his good friends.
+It was a bright morning on the island of Motunui. Moana walked near the beach and looked at the blue sea. The wind was soft, and the water moved slowly. She felt happy because the day was warm and quiet. Then her mother called her from the village.
 
-When Harry came to the Great Hall, he saw Ginny and Hermione near the table. They were smiling in a secret way. Ginny said, “Happy birthday, Harry!” Hermione gave him a small blue box. Inside it, there was a new notebook. “For your thoughts and plans,” Hermione said. Harry thanked her and looked very pleased.
+“Moana,” her mother said, “we need fruit and flowers for tonight’s family dinner. Can you help?”
 
-Then Ginny gave Harry a soft red scarf. “I made it for you,” she said. Harry touched the scarf and smiled. “It is wonderful,” he said. “Thank you, Ginny.”
+Moana smiled and said, “Yes, I can help.”
 
-After breakfast, Ginny and Hermione asked Harry to come with them to the garden near the lake. Harry was surprised because they told him to close his eyes before they arrived. When he opened them, he saw a small table under a tree. There was a birthday cake with white cream and little golden stars on it. There were also pumpkin juice and three plates.
+She took a large basket and walked to the trees near the river. After that, her little pig Pua followed her. Moana laughed because Pua always wanted to go with her.
 
-“It is not a big party,” Hermione said, “but it is full of love.”
+Soon the basket was full of yellow fruit, green leaves, and pretty flowers. Moana was ready to go back, but then she heard a strange sound. It came from behind some big rocks near the water.
 
-Harry felt very happy. “This is perfect,” he said.
+Moana looked carefully. A small sea turtle was there. It was moving slowly because a long vine was around one of its legs. The turtle looked afraid.
 
-Then a small problem happened. The wind became strong, and it pushed the cake box. The cake started to slide off the table. Ginny quickly held the box, but some cream fell onto the grass. Hermione laughed and used a simple cleaning spell. Harry helped move the plates and cups, so nothing else fell.
+“Oh no,” Moana said softly. She put the basket down and went to help.
 
-Soon everything was ready again. They sat together, ate cake, and talked about happy memories. Harry laughed more than usual that day. He felt safe and loved.
+First, she tried to pull the vine away with her hands, but it was too tight. Then she found a sharp shell on the sand and used it to cut the vine. The turtle moved its leg again, but it was still weak.
 
-At the end of the afternoon, Harry said, “This is one of my best birthdays.”
+Moana carried the turtle to the water. Pua stayed close to her and watched quietly. Moana washed the turtle’s leg and waited. After a short time, the turtle looked stronger. Then it moved into the sea and disappeared under the waves.
 
-Ginny smiled, and Hermione nodded. They were happy because Harry was happy.
+Moana felt glad, but when she turned around, she had a problem. Her basket was gone.
 
-Harry learned a simple lesson that day: birthdays are not special because of big gifts or loud parties. They are special because kind friends are with you.
+The wind had pushed it down a small hill. Fruit and flowers were all over the ground. Pua ran after one round fruit and made Moana laugh.
+
+She picked everything up again. Some flowers were lost, but Moana found new ones near the path. Then she walked home with Pua.
+
+At dinner, her family loved the fruit and flowers. Moana told them about the turtle, and they listened with warm smiles.
+
+That day, Moana learned a simple lesson: when you stop to help someone, your work may become harder, but your heart becomes stronger.
