@@ -38,7 +38,7 @@ Po felt bad, but Tigress was not angry. "Next time, ask someone nearby to help t
 
 Po nodded. "Yes. I can be kind and smart together."
 
-Later, Po went back to the shop. He told Mr. Ping the whole story. Mr. Ping gave him fresh noodles and said, "Then go again, my son. This time, take the shorter road."
+Later, Po went back to the shop. He told Mr. Ping the whole story. Mr. Ping gave him fresh noodles and said, "Then go again, my son. This time, take the short road."
 
 Po laughed, took the new box, and delivered it on time.
 
