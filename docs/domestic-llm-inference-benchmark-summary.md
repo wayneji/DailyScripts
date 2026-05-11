@@ -1,47 +1,48 @@
-# Domestic LLM Inference Benchmark Summary
+# Domestic LLM Serving Benchmark Summary
 
 > Date: 2026-05-11  
-> Context: The vendor team needs to benchmark two LLM inference scenarios on domestic AI servers, then provide reproducible test data, recommended configurations, and a basis for the customer’s own online validation.
+> Context: The customer has two representative LLM serving scenarios that must be evaluated on domestic accelerator servers. The vendor team is expected to provide a reproducible benchmark methodology, measured results, deployment recommendations, and a clear basis for the customer’s own online validation.
 
 ---
 
-## 1. Project Positioning
+## 1. Project Scope
 
-This project is not simply about building an inference platform or running a demo. It is closer to a **domestic LLM inference solution selection and benchmark validation project**.
+This work is not simply about standing up an inference endpoint or running a proof-of-concept demo. It should be treated as a **domestic LLM serving benchmark and solution validation project**.
 
-The main objective is to help the customer establish a reliable performance baseline for large model inference on domestic AI servers.
+The goal is to help the customer establish a practical performance baseline for large-model serving on domestic accelerator servers.
 
-Key goals include:
+The benchmark should answer the following questions:
 
-- Identify the inference capability boundary of domestic servers under different workloads.
-- Compare throughput, SLA performance, and stability across models, deployment modes, and resource configurations.
-- Produce reproducible benchmark methods and data.
-- Provide recommended configurations for the customer’s later online validation and procurement evaluation.
+- What is the serving capacity boundary of each domestic server configuration under real customer workloads?
+- How do different models, deployment topologies, batching strategies, cache strategies, and prefill/decode layouts compare?
+- Which configuration is best suited for throughput-oriented multimodal generation?
+- Which configuration is best suited for latency-sensitive agent interaction?
+- What results can the customer reproduce later in its own online environment?
 
-The vendor’s value is not to make the final decision for the customer, but to provide trustworthy, comparable, and reproducible benchmark evidence.
-
----
-
-## 2. Role Definition
-
-Current role relationship:
-
-- Wang Lei / vendor team: responsible for benchmark design, execution, data collection, and recommendation output.
-- Teacher Liang / customer side: responsible for providing real workload inputs, scenario requirements, and evaluation criteria.
-- Customer objective: use vendor benchmark data for internal evaluation, online validation, and final solution selection.
-
-The vendor team should act as a joint validation team rather than only a demo provider.
+The vendor’s role is not to make the final decision on behalf of the customer. The real value is to provide benchmark evidence that is measurable, comparable, and reproducible.
 
 ---
 
-## 3. Two Core Scenarios
+## 2. Stakeholders and Responsibilities
 
-The current project can be divided into two major scenarios:
+The current working relationship can be summarized as follows:
+
+- Wang Lei / vendor team: responsible for benchmark design, test execution, metric collection, result analysis, and recommendation.
+- Teacher Liang / customer side: responsible for confirming business scenarios, providing representative datasets or service-level requirements, and evaluating the results.
+- Customer objective: use the benchmark results as input for internal assessment, online validation, and final solution selection.
+
+In this phase, the vendor team is effectively acting as a joint validation partner rather than a pure demo or implementation provider.
+
+---
+
+## 3. Two Benchmark Scenarios
+
+The project should be split into two independent benchmark tracks:
 
 1. Multimodal data generation / multimodal inference.
-2. Agent / OpenClaw-style online interaction.
+2. Agent-style online interaction, similar to an OpenClaw-style agent runtime.
 
-Both scenarios require domestic AI servers, but their optimization goals and benchmark metrics are very different.
+Both tracks must run on domestic accelerator servers, but their optimization goals and success metrics are very different. They should not be judged using one single metric set.
 
 ---
 
@@ -49,40 +50,43 @@ Both scenarios require domestic AI servers, but their optimization goals and ben
 
 ### 4.1 Scenario Definition
 
-Scenario 1 focuses on data generation and multimodal inference.
+Scenario 1 is a throughput-oriented multimodal generation workload.
 
 Typical workload characteristics:
 
-- Input may include text, images, and videos.
-- Multi-turn context may exist.
-- Input plus output should be aligned to less than 64k tokens.
-- Extreme cases may be close to 32k input plus 32k output.
-- Output may be long.
-- Single-task latency can be relatively long.
-- The key objective is throughput, not low request latency.
+- Inputs may include text, images, and videos.
+- Multi-turn context may be present.
+- The total input + output length should be aligned to less than 64k tokens.
+- Extreme cases may approach 32k input tokens plus 32k generated tokens.
+- Outputs can be long.
+- Per-request latency can be relatively relaxed.
+- The primary objective is generation throughput, not interactive latency.
+
+This scenario should be viewed as an offline or near-offline generation pipeline. It should not be optimized using the same criteria as an interactive chat service.
 
 ### 4.2 Candidate Models
 
-Current understanding:
+Based on the current understanding, the candidate models for this scenario are:
 
 - Kimi 2.6
 - Qwen3.5-397B
 
-These models are better suited for multimodal data generation because they are expected to support native multimodal input and long-context generation.
+These models are more suitable for this track because they are expected to support native multimodal inputs and long-context generation, which are central to the data-generation workload.
 
-### 4.3 Optimization Target
+### 4.3 Optimization Objective
 
-This scenario is not highly sensitive to online SLA.
+This scenario is not highly sensitive to interactive service-level objectives.
 
-TTFT and TPOT can be relaxed. Long single-request duration, queuing, and asynchronous task execution may be acceptable.
+Time to first token (TTFT) and time per output token (TPOT, often reported as inter-token latency) can be relaxed. Long-running requests, queuing, and asynchronous execution may all be acceptable.
 
-The real priorities are:
+The benchmark should primarily optimize for:
 
-- How many samples can be generated per hour or per day.
-- How many tokens can be generated per minute or per hour.
-- Whether GPU/NPU utilization is high enough.
-- Whether long-context and long-output workloads are stable.
-- Whether the cost per token is acceptable.
+- Samples generated per hour or per day.
+- Tokens generated per minute or per hour.
+- Accelerator utilization under sustained load.
+- Stability under long-context and long-output workloads.
+- Cost per generated token.
+- Throughput gains from batching, prefix/KV-cache reuse, and prefill/decode disaggregation.
 
 ### 4.4 Key Metrics
 
@@ -90,36 +94,38 @@ Recommended primary metrics:
 
 | Metric | Description |
 |---|---|
-| TPM | Tokens per minute, core throughput metric |
-| Samples per hour | Business-level data generation capacity |
-| GPU/NPU utilization | Whether hardware is efficiently used |
-| HBM / memory usage | Long-context and KV cache pressure |
-| Batch scalability | Ability to improve throughput with larger batches |
-| Long-output stability | Whether 16k/32k output remains stable |
-| OOM rate | Stability under extreme context length |
-| Success rate | Production usability |
-| Cost per million tokens | ROI and resource planning reference |
+| Output tokens per minute | Core generation throughput metric |
+| Samples per hour | Business-facing generation capacity |
+| Accelerator utilization | Whether GPU/NPU resources are effectively used |
+| Device memory / HBM usage | Pressure from long context and KV cache |
+| Batch scalability | Whether larger batches continue to improve throughput |
+| Long-output stability | Whether 16k/32k-token generation remains stable |
+| OOM rate | Failure rate under long-context or high-batch conditions |
+| Success rate | Production-readiness indicator |
+| Cost per million generated tokens | ROI and capacity-planning reference |
 
-TTFT and TPOT should still be recorded, but they are not the first-priority optimization goals for this scenario.
+TTFT and TPOT should still be collected, but they should not be treated as the primary optimization targets for this track.
 
-### 4.5 Required Customer Inputs
+### 4.5 Customer Inputs Required
 
-To make the benchmark match the real production workload, the customer should provide a dataset or workload profile.
+To make the benchmark meaningful, the customer should provide either a real dataset or a representative workload profile.
 
-Required information:
+Required inputs include:
 
-- Input token distribution: AVG / P50 / P95 / P99.
-- Output token distribution: AVG / P50 / P95 / P99.
-- Ratio of text, image, and video inputs.
-- Image count and typical image specification.
-- Video duration, resolution, FPS, and frame sampling strategy.
-- Average number of turns for multi-turn context.
-- Total task volume, such as daily generation target.
-- Completion window, such as 8 hours or 24 hours.
-- Whether queuing is allowed.
-- Whether asynchronous return is allowed.
-- Whether retry is allowed after failure.
-- Whether output quality requires secondary validation.
+- Input token length distribution: average / P50 / P95 / P99.
+- Output token length distribution: average / P50 / P95 / P99.
+- Ratio of text-only, image-text, and video-text requests.
+- Typical number of images per request and image specifications.
+- Video duration, resolution, frame rate, and frame-sampling strategy.
+- Average number of dialogue turns, if multi-turn context is involved.
+- Required data generation volume per batch or per day.
+- Completion window, such as within 8 hours or within 24 hours.
+- Whether request queuing is allowed.
+- Whether asynchronous job completion is acceptable.
+- Whether failed jobs can be retried.
+- Whether generated outputs require downstream quality review.
+
+Without these inputs, a synthetic prompt-only benchmark may not reflect the customer’s real production behavior.
 
 ### 4.6 Suggested Test Design
 
@@ -127,59 +133,60 @@ Recommended test cases:
 
 | Case | Input | Output | Purpose |
 |---|---|---|---|
-| S | 4k | 4k | Basic capability test |
-| M | 16k | 8k / 16k | Medium long-context test |
-| L | 32k | 32k | Extreme long-context and long-output test |
-| MM-Image | Image + text | Long text | Multimodal image-text generation test |
-| MM-Video | Video + text | Long text | Video understanding and data generation test |
+| S | 4k tokens | 4k tokens | Basic serving capability |
+| M | 16k tokens | 8k / 16k tokens | Medium long-context workload |
+| L | 32k tokens | 32k tokens | Extreme long-context and long-output workload |
+| MM-Image | Image + text | Long text | Image-text generation workload |
+| MM-Video | Video + text | Long text | Video understanding and generation workload |
 
-During testing, the vendor team should observe:
+During testing, the team should monitor:
 
-- Throughput curve under different batch sizes.
-- Whether TPOT degrades during long output.
-- Whether KV cache fragmentation or scheduling jitter occurs.
-- Whether memory capacity becomes the bottleneck.
+- Throughput curves under different batch sizes.
+- Whether TPOT / inter-token latency degrades during long generation.
+- Whether KV-cache fragmentation or scheduler jitter appears over time.
+- Whether device memory / HBM becomes the limiting factor.
+- Whether the vision encoder becomes the bottleneck for multimodal inputs.
 - Whether prefill/decode disaggregation is required.
-- Throughput improvement before and after PD disaggregation.
+- Throughput improvement before and after prefill/decode disaggregation.
 
 ---
 
-## 5. Scenario 2: Agent / OpenClaw-Style Online Interaction
+## 5. Scenario 2: Agent-Style Online Interaction
 
 ### 5.1 Scenario Definition
 
-Scenario 2 is a typical online Agent interaction workload.
+Scenario 2 is a latency-sensitive interactive agent workload. It is similar to an OpenClaw-style agent runtime in which the user submits a task, the agent reasons over the request, may call external tools, orchestrates a workflow, and then returns a result.
 
 Typical workload characteristics:
 
-- User waits for the model response online.
-- Fast first-token response matters.
-- Multi-turn conversations may exist.
-- Tool calling, MCP, API calls, or workflow orchestration may be involved.
-- User experience is sensitive to waiting time.
-- P50 / P95 / P99 latency should be tracked.
-
-This scenario should not optimize only for maximum throughput. It should balance online experience and concurrency capacity.
+- The user waits online for the model response.
+- Fast first-token latency directly affects user experience.
+- Multi-turn dialogue may be involved.
+- Tool calling, MCP servers, API calls, or workflow orchestration may be part of the request path.
+- P50 / P95 / P99 latency must be tracked under concurrency.
+- The goal is to balance responsiveness, concurrency, and cost, not simply maximize offline throughput.
 
 ### 5.2 Candidate Models
 
-Current understanding:
+Based on the current understanding, the candidate models for this scenario are:
 
 - GLM5.1
 - DSV4
 
-These models do not need to handle image or video input in this scenario. They are mainly used for Agent dialogue, tool use, reasoning, and workflow orchestration.
+These models do not need to process image or video input in this track. They are mainly used for agent dialogue, reasoning, tool use, and workflow orchestration.
 
-### 5.3 Optimization Target
+### 5.3 Optimization Objective
 
-The key objectives are:
+The key objective is to provide a stable online interaction experience.
 
-- Fast TTFT.
-- Smooth streaming output.
-- Stable P95 / P99 latency under concurrency.
-- Stable multi-turn context handling.
-- Controlled end-to-end tool calling latency.
-- Significant performance gain when cache hit rate is high.
+The benchmark should focus on:
+
+- Low TTFT so the user sees the first token quickly.
+- Stable TPOT / inter-token latency so streaming output feels smooth.
+- Controlled P95 / P99 latency under concurrency.
+- Stable behavior as multi-turn context grows.
+- End-to-end latency of tool-calling workflows.
+- Performance improvement from prompt/prefix cache hits.
 
 ### 5.4 Key Metrics
 
@@ -187,36 +194,38 @@ Recommended primary metrics:
 
 | Metric | Description |
 |---|---|
-| TTFT P50 / P95 / P99 | First-token user experience |
-| TPOT P50 / P95 / P99 | Streaming smoothness |
-| P95 total response time | End-user waiting experience |
-| Concurrency capacity | Online request capacity |
-| Queue delay | Whether queuing becomes the bottleneck |
-| Cache hit rate | Context reuse benefit |
-| Tool calling latency | Agent toolchain overhead |
-| Success rate | Agent task stability |
-| TPS / TPM | Auxiliary throughput metric |
-| GPU/NPU utilization | Hardware efficiency |
+| TTFT P50 / P95 / P99 | First-token latency and perceived responsiveness |
+| TPOT / inter-token latency P50 / P95 / P99 | Streaming smoothness |
+| P95 end-to-end response time | User-facing request latency |
+| Concurrent request capacity | Online serving capacity |
+| Queueing delay | Whether admission control or scheduler backlog is the bottleneck |
+| Prompt / prefix cache hit rate | Benefit from reusable context |
+| Tool-calling latency | Overhead introduced by agent tools and workflow steps |
+| Task success rate | Stability of the agent workflow |
+| Tokens per second / tokens per minute | Auxiliary throughput metrics |
+| Accelerator utilization | Resource efficiency under online load |
 
-### 5.5 Required Customer Inputs
+### 5.5 Customer Inputs Required
 
-The customer should provide clear SLA targets and workload assumptions.
+For this track, vague requirements such as “good user experience” are not enough. The customer needs to define measurable service-level objectives.
 
-Required information:
+Required inputs include:
 
-- TTFT target, such as <= 3s or <= 5s.
-- TPOT target, such as <= 50ms or <= 100ms.
-- P95 total response time target.
-- Peak concurrent requests.
-- Number of concurrent online users.
-- Average number of dialogue turns per task.
-- Average input and output tokens per turn.
-- Tool calling ratio.
+- TTFT target, for example <= 3s or <= 5s.
+- TPOT / inter-token latency target, for example <= 50ms or <= 100ms.
+- P95 end-to-end response time target.
+- Peak concurrent request target.
+- Expected number of active users or sessions.
+- Average number of turns per agent task.
+- Average input tokens and output tokens per turn.
+- Percentage of requests involving tool calls.
 - Average number of tool calls per task.
 - Whether streaming output is required.
-- Expected cache hit rate.
-- Whether system prompt and tool schema are fixed.
-- Whether long-context reuse exists.
+- Expected prompt/prefix cache hit rate.
+- Whether the system prompt and tool schemas are mostly static.
+- Whether long-context reuse exists across turns or sessions.
+
+These inputs determine how the test should be designed and whether a measured result is acceptable.
 
 ### 5.6 Suggested Test Design
 
@@ -224,94 +233,95 @@ Recommended test cases:
 
 | Case | Description | Purpose |
 |---|---|---|
-| Single-turn chat | No tool calling | Measure baseline TTFT / TPOT |
-| Multi-turn chat | 5-10 turns | Measure performance under KV cache growth |
-| Single-tool call | One tool per turn | Measure toolchain overhead |
-| Multi-tool call | Multiple tools and workflow orchestration | Measure Agent runtime overhead |
-| Cache disabled | No context cache | Establish baseline |
-| 50% cache hit | Partial reuse | Measure cache benefit |
-| 80% cache hit | High reuse | Measure best-case cache benefit |
-| Concurrency ramp-up | 10 / 50 / 100 / 200 concurrent requests | Identify collapse point |
+| Single-turn chat | No tool calling | Establish baseline TTFT / TPOT |
+| Multi-turn chat | 5-10 turns | Observe performance as context grows |
+| Single-tool workflow | One tool call per task | Measure toolchain overhead |
+| Multi-tool workflow | Multiple tools and orchestration steps | Measure agent runtime overhead |
+| Cache disabled | No prompt/prefix cache | Establish no-cache baseline |
+| 50% cache hit rate | Partial context reuse | Measure cache benefit |
+| 80% cache hit rate | High context reuse | Measure best-case cache benefit |
+| Concurrency ramp-up | 10 / 50 / 100 / 200 concurrent requests | Identify capacity boundary and collapse point |
 
-The test should not only cover single-turn chat. It should cover multi-turn context, tool calling, and P95/P99 behavior under concurrency.
+The agent benchmark should not stop at single-turn chat. The most useful results come from multi-turn context, tool-calling workflows, cache behavior, and P95/P99 latency under concurrency.
 
 ---
 
-## 6. Core Difference Between the Two Scenarios
+## 6. Key Differences Between the Two Tracks
 
-| Dimension | Scenario 1: Multimodal Data Generation | Scenario 2: Agent Interaction |
+| Dimension | Scenario 1: Multimodal Generation | Scenario 2: Agent Interaction |
 |---|---|---|
-| Business pattern | Offline / near-offline generation | Online interaction |
+| Workload pattern | Offline / near-offline generation | Online interactive serving |
 | Candidate models | Kimi2.6 / Qwen3.5-397B | GLM5.1 / DSV4 |
 | Multimodal input | Required | Not required |
-| SLA sensitivity | Low | High |
-| Core metrics | TPM, samples/hour, utilization, cost | TTFT, TPOT, P95 latency, concurrency |
-| Queuing | Acceptable | Should be controlled |
-| Asynchronous execution | Acceptable | Usually not suitable for main interaction path |
-| Output length | Can be very long | Usually medium, depending on task |
-| Cache value | High, improves throughput | Very high, improves experience |
-| PD disaggregation value | High | Depends on context length and concurrency |
-| Test focus | Throughput limit and stability | Online SLA and concurrency boundary |
+| Latency sensitivity | Low | High |
+| Primary metrics | Output TPM, samples/hour, utilization, cost | TTFT, TPOT, P95 latency, concurrency |
+| Queuing | Acceptable | Must be controlled |
+| Asynchronous execution | Acceptable | Usually not suitable for the main interaction path |
+| Output length | Can be very long | Usually moderate, depending on the task |
+| Cache value | High, mainly improves throughput | Very high, directly improves responsiveness |
+| Prefill/decode disaggregation value | High | Depends on context length and concurrency pressure |
+| Test focus | Throughput ceiling and long-run stability | SLO compliance and concurrency boundary |
 
 ---
 
-## 7. Interpretation of Wang Lei’s Metric Questions
+## 7. How to Interpret Wang Lei’s Metric Questions
 
-Wang Lei mentioned the following metrics:
+Wang Lei asked for the following information:
 
-- Business dataset input and output length: AVG / P50 / P99.
+- Input and output length distribution: average, P50, P99.
 - TTFT.
 - TPOT.
-- Concurrency requirement.
+- Concurrency requirements.
 - Cache hit rate.
 
-These metrics should be interpreted by scenario.
+These are all important, but their priority differs by scenario.
 
 | Metric | Scenario 1 | Scenario 2 |
 |---|---|---|
-| Input length AVG/P50/P99 | Required for throughput and memory planning | Required for SLA and context pressure evaluation |
-| Output length AVG/P50/P99 | Very important, determines decode duration | Important, affects user waiting time |
-| TTFT | Record only, not primary target | Core SLA metric |
-| TPOT | Record and observe long-output degradation | Core user experience metric |
-| Concurrency | More like batch task parallelism | Core online capacity metric |
-| Cache hit rate | Improves throughput and reduces prefill cost | Improves TTFT and multi-turn experience |
+| Input length average/P50/P99 | Used for throughput and memory planning | Used for SLO and context-pressure analysis |
+| Output length average/P50/P99 | Critical because it determines decode occupancy | Important because it affects user waiting time |
+| TTFT | Collect for reference, not the main target | Core service-level metric |
+| TPOT / inter-token latency | Collect and watch for long-output degradation | Core streaming-experience metric |
+| Concurrency | More like batch job parallelism | Core online serving capacity metric |
+| Cache hit rate | Reduces prefill cost and improves throughput | Improves TTFT, multi-turn experience, and end-to-end latency |
 
 ---
 
 ## 8. Benchmark Methodology
 
-To make the benchmark credible to the customer, the test methodology should be unified.
+A credible benchmark requires a consistent methodology. Otherwise, results from different models or servers will not be comparable.
 
-### 8.1 Unified Test Inputs
+### 8.1 Standardized Test Inputs
 
-Do not rely only on demo prompts. The benchmark should use real or representative customer workload samples.
+The benchmark should not rely on hand-written demo prompts only. It should use customer-provided data or representative workload samples.
 
-For Scenario 1, the dataset should include:
+For Scenario 1, the dataset should cover:
 
-- Text-only input.
-- Image + text input.
-- Video + text input.
+- Text-only requests.
+- Image-text requests.
+- Video-text requests.
 - Multi-turn context.
-- Different input and output length buckets.
+- Multiple input/output length buckets.
 
-For Scenario 2, the dataset should include:
+For Scenario 2, the dataset should cover:
 
 - Single-turn Q&A.
-- Multi-turn Q&A.
-- Tool calling.
-- Long system prompt.
-- Different cache hit rate settings.
+- Multi-turn dialogue.
+- Tool-calling tasks.
+- Long system prompts.
+- Different prompt/prefix cache hit rates.
 
-### 8.2 Unified Metric Schema
+### 8.2 Standardized Metric Schema
 
-Recommended fields:
+Recommended metric fields:
 
 ```text
 model
 server_type
+accelerator_type
 deployment_mode
-tp_size
-pp_size
+tensor_parallel_size
+pipeline_parallel_size
 batch_size
 concurrency
 input_tokens_avg
@@ -330,134 +340,143 @@ tpot_avg
 tpot_p50
 tpot_p95
 tpot_p99
-throughput_tps
-throughput_tpm
+inter_token_latency_avg
+throughput_tokens_per_second
+throughput_tokens_per_minute
 samples_per_hour
-gpu_or_npu_util
-hbm_util
+accelerator_utilization
+hbm_utilization
 kv_cache_usage
-cache_hit_rate
+prompt_cache_hit_rate
 success_rate
 oom_count
 error_count
-cost_per_million_tokens
+cost_per_million_output_tokens
 ```
 
-### 8.3 Unified Test Duration
+### 8.3 Standardized Test Duration
 
-Do not rely only on short peak tests.
+Short peak tests are not sufficient.
 
-Recommended durations:
+Recommended test durations:
 
-- Smoke test: 5-10 minutes for quick validation.
-- Standard pressure test: 30 minutes for stable throughput observation.
-- Long-run stability test: 1 hour or longer to observe degradation, memory fragmentation, and scheduling jitter.
+- Smoke test: 5-10 minutes to validate environment and serving path.
+- Standard load test: 30 minutes to observe sustained throughput and latency.
+- Long-run stability test: 1 hour or longer to observe throughput degradation, memory fragmentation, scheduler jitter, and error rate.
 
-### 8.4 Unified Traffic Model
+### 8.4 Standardized Traffic Model
 
-Recommended traffic modes:
+Recommended traffic patterns:
 
 - Fixed concurrency.
-- Step-by-step concurrency ramp-up.
+- Step-wise concurrency ramp-up.
 - Burst traffic.
 - Production-like arrival pattern.
 
+Results from different traffic models should be reported separately. They should not be mixed into one comparison table.
+
 ---
 
-## 9. Domestic AI Server Test Focus
+## 9. Focus Areas for Domestic Accelerator Servers
 
-Because both scenarios require domestic AI servers, the benchmark should focus on practical bottlenecks.
+Because both tracks must run on domestic accelerator servers, the benchmark should pay special attention to practical serving bottlenecks.
 
-Key points:
+Key focus areas:
 
-- Whether the large model can be loaded and run stably.
-- Multi-card parallel efficiency.
-- HBM / memory capacity boundary.
-- KV cache pressure under long context.
-- Whether 32k output causes performance degradation.
-- Whether the visual encoder becomes a bottleneck in multimodal workloads.
-- Whether PD disaggregation brings stable improvement.
-- Whether TTFT collapses quickly under high concurrency.
-- Whether tool calling impacts end-to-end SLA.
-- Whether long-run tests expose degradation, errors, OOM, or scheduling jitter.
+- Whether the model can be loaded and served reliably.
+- Multi-accelerator parallel efficiency.
+- Device memory / HBM capacity boundary.
+- KV-cache pressure under long context.
+- Whether 32k-token generation causes throughput degradation.
+- Whether the vision encoder becomes the bottleneck in multimodal workloads.
+- Whether prefill/decode disaggregation provides stable gains.
+- Whether TTFT degrades sharply under high concurrency.
+- Whether tool calls significantly increase end-to-end latency.
+- Whether long-run tests reveal slowdown, OOM, runtime errors, or scheduler instability.
 
-The value of the benchmark is not only to prove that the model can run, but to identify where it runs best, where the boundary is, and what risks remain.
+The benchmark should prove more than “the model can run.” It should identify:
+
+- Which workload the server handles best.
+- Where the capacity boundary is.
+- Which metric breaks first.
+- Which optimization actually helps.
+- Which risks the customer should validate again online.
 
 ---
 
 ## 10. Recommended Deliverables
 
-### 10.1 Test Plan Document
+### 10.1 Benchmark Plan
 
-Should include:
+The plan should include:
 
-- Background.
-- Scenario definition.
+- Project background.
+- Scenario definitions.
 - Model scope.
-- Hardware scope.
-- Metrics.
+- Hardware / accelerator scope.
+- Metric definitions.
 - Test methodology.
 - Dataset description.
 - Test environment description.
 
-### 10.2 Benchmark Data Tables
+### 10.2 Benchmark Result Tables
 
-Should include:
+The result tables should include:
 
-- Scenario 1 multimodal data generation throughput results.
-- Scenario 2 Agent SLA and concurrency results.
-- Horizontal comparison across domestic servers.
+- Scenario 1 multimodal generation throughput results.
+- Scenario 2 agent latency and concurrency results.
+- Cross-server comparison across domestic accelerator servers.
 - Comparison across deployment modes.
-- Before/after comparison for PD disaggregation.
-- Cache hit rate comparison.
+- Before/after comparison for prefill/decode disaggregation.
+- Prompt/prefix cache hit-rate comparison.
 
-### 10.3 Recommended Solutions
+### 10.3 Recommended Serving Configurations
 
-For each scenario, provide:
+For each scenario, the recommendation should include:
 
 - Recommended model.
 - Recommended domestic server configuration.
-- Recommended deployment mode.
-- Recommended concurrency or batch settings.
+- Recommended deployment topology.
+- Recommended batch or concurrency settings.
 - Recommended cache strategy.
-- Whether PD disaggregation is recommended.
-- Expected throughput or SLA.
-- Key risks and applicability boundary.
+- Whether prefill/decode disaggregation is recommended.
+- Expected throughput or service-level performance.
+- Key risks and applicability boundaries.
 
 ### 10.4 Customer Online Validation Guide
 
-Should include:
+The guide should explain:
 
-- How to reproduce vendor benchmark results.
-- What metrics to collect during online validation.
+- How to reproduce the vendor benchmark.
+- Which metrics to collect during customer-side online validation.
 - Which benchmark results can be directly referenced.
-- Which results need recalibration with real production traffic.
+- Which results must be recalibrated using real production traffic.
 
 ---
 
-## 11. Current Status and Next Step
+## 11. Current Status and Next Steps
 
 Current status:
 
-- Scenario split is clear.
-- Scenario 1 is multimodal data generation / inference, with throughput as the priority.
-- Scenario 2 is Agent / OpenClaw-style interaction, with online SLA as the priority.
-- Both scenarios require domestic AI servers.
+- The two benchmark tracks have been clearly separated.
+- Scenario 1 is multimodal generation / inference, with throughput as the priority.
+- Scenario 2 is agent-style online interaction, with service-level objectives as the priority.
+- Both tracks must be evaluated on domestic accelerator servers.
 - The vendor team is waiting for critical customer inputs.
 
 Pending customer inputs:
 
-1. Scenario 1 real dataset or workload distribution.
-2. Scenario 2 Agent SLA and concurrency requirements.
+1. Real dataset or workload distribution for Scenario 1.
+2. Agent SLOs, concurrency targets, and tool-calling assumptions for Scenario 2.
 
-Once these inputs are provided, formal benchmark execution can begin.
+Once these inputs are available, formal benchmark execution can begin.
 
 ---
 
 ## 12. One-Sentence Summary
 
-This project should follow a **workload-driven + SLA-driven** benchmark approach:
+This project should follow a **workload-driven and SLO-driven** benchmark approach:
 
-- Scenario 1 uses the real multimodal dataset to measure maximum data generation throughput on domestic AI servers.
-- Scenario 2 uses clear Agent SLA targets to measure the online interaction capability boundary of domestic AI servers.
-- The final output should be a reproducible, comparable, and customer-verifiable domestic LLM inference capability baseline.
+- Scenario 1 uses real multimodal workloads to measure the maximum generation throughput and long-run stability of domestic accelerator servers.
+- Scenario 2 uses explicit agent SLOs to measure responsiveness, concurrency capacity, and end-to-end workflow latency.
+- The final output should be a reproducible, comparable, and customer-verifiable baseline for domestic LLM serving capability.
