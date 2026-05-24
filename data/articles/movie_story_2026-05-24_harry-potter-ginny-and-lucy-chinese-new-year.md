@@ -6,9 +6,9 @@ Harry Potter and Ginny Weasley wanted to help. Lucy explained the red lanterns, 
 
 Then Draco Malfoy walked by and gave a sharp laugh. “What is all this? School is for magic, not for silly party games,” he said.
 
-Lucy felt hurt, but Harry answered calmly. “It is a festival about family, hope, and good wishes. There is nothing silly about kindness.” Ginny added, “You are welcome to stay if you want to learn.”
+Lucy was mad. She grabbed her badminton racket and gave Malfoy one quick whack on the arm. Harry answered calmly, “It is a festival about family, hope, and good wishes. There is nothing silly about kindness.” Ginny added, “You are welcome to stay if you want to learn.”
 
-Malfoy snorted and left.
+Malfoy snorted and left, rubbing his arm.
 
 That night, the celebration began. Students from many houses came to taste the dumplings and write wishes for the new year. The hall felt warm and peaceful.
 
@@ -18,4 +18,4 @@ Malfoy felt ashamed. The next day, he returned and said, “Your festival was be
 
 Lucy smiled. Harry and Ginny smiled too.
 
-Lucy learned that when people share respect and kindness, good things grow. Malfoy learned another lesson too: good deeds bring good rewards, but unkind words bring sadness back to the person who says them.
+Lucy learned that when people share respect and kindness, good things grow. She also learned that it is okay to stand up for yourself when someone is rude. Malfoy learned another lesson too: good deeds bring good rewards, but unkind words bring sadness back to the person who says them.
