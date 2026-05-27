@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#081133"/>
+      <stop offset="100%" stop-color="#2a214d"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffe59a" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#ffe59a" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#sky)"/>
+  <g fill="#f6f0c0">
+    <circle cx="90" cy="80" r="2"/><circle cx="180" cy="120" r="2"/><circle cx="260" cy="60" r="1.8"/>
+    <circle cx="340" cy="150" r="2"/><circle cx="430" cy="90" r="1.8"/><circle cx="520" cy="70" r="2"/>
+    <circle cx="650" cy="130" r="2"/><circle cx="740" cy="60" r="1.5"/><circle cx="860" cy="120" r="2"/>
+    <circle cx="960" cy="80" r="2"/><circle cx="1080" cy="140" r="1.8"/><circle cx="1120" cy="50" r="2"/>
+  </g>
+  <g>
+    <rect x="0" y="460" width="1200" height="340" fill="#171a2f"/>
+    <rect x="140" y="250" width="120" height="260" fill="#2e3558"/>
+    <polygon points="130,250 200,185 270,250" fill="#22273f"/>
+    <rect x="260" y="220" width="100" height="290" fill="#394064"/>
+    <polygon points="250,220 310,160 370,220" fill="#252b46"/>
+    <rect x="420" y="190" width="150" height="320" fill="#32395e"/>
+    <polygon points="410,190 495,120 580,190" fill="#20253d"/>
+    <rect x="650" y="230" width="130" height="280" fill="#384065"/>
+    <polygon points="640,230 715,160 790,230" fill="#22283f"/>
+    <rect x="850" y="260" width="120" height="250" fill="#2d3455"/>
+    <polygon points="840,260 910,200 980,260" fill="#21263d"/>
+    <rect x="320" y="430" width="560" height="140" rx="25" fill="#4a2f24"/>
+    <circle cx="455" cy="535" r="42" fill="#4f1e21"/>
+    <circle cx="600" cy="525" r="46" fill="#735223"/>
+    <circle cx="745" cy="535" r="42" fill="#244a70"/>
+    <rect x="420" y="560" width="75" height="110" rx="8" fill="#2a1b1d"/>
+    <rect x="565" y="560" width="80" height="110" rx="8" fill="#2a2418"/>
+    <rect x="710" y="560" width="75" height="110" rx="8" fill="#1c2735"/>
+    <text x="60" y="740" font-family="Arial, sans-serif" font-size="30" fill="#ffffff">Part 1: A Quiet Start</text>
+    <text x="60" y="780" font-family="Arial, sans-serif" font-size="20" fill="#e8e8e8">Harry, Ron, and Hermione find a safe room.</text>
+  </g>
+  <ellipse cx="600" cy="520" rx="180" ry="90" fill="url(#glow)"/>
+  <g fill="#ffe7a1">
+    <rect x="480" y="340" width="14" height="60"/><rect x="520" y="320" width="14" height="80"/>
+    <rect x="600" y="300" width="14" height="100"/><rect x="680" y="325" width="14" height="75"/>
+    <rect x="720" y="345" width="14" height="55"/>
+  </g>
+  <g fill="#fff8d8">
+    <ellipse cx="487" cy="330" rx="16" ry="24"/><ellipse cx="527" cy="310" rx="16" ry="24"/>
+    <ellipse cx="607" cy="288" rx="18" ry="28"/><ellipse cx="687" cy="315" rx="16" ry="24"/>
+    <ellipse cx="727" cy="337" rx="15" ry="22"/>
+  </g>
+</svg>

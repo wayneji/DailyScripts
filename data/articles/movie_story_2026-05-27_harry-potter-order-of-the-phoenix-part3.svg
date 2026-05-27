@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffe39a"/>
+      <stop offset="100%" stop-color="#f6f9ff"/>
+    </linearGradient>
+    <radialGradient id="sun" cx="50%" cy="35%" r="40%">
+      <stop offset="0%" stop-color="#fff9df"/>
+      <stop offset="100%" stop-color="#fff9df" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#bg)"/>
+  <rect x="0" y="220" width="1200" height="580" fill="#f3dea5"/>
+  <ellipse cx="600" cy="280" rx="350" ry="220" fill="url(#sun)"/>
+  <g fill="#fff8db">
+    <circle cx="260" cy="140" r="5"/><circle cx="330" cy="120" r="4"/><circle cx="420" cy="150" r="5"/>
+    <circle cx="770" cy="130" r="5"/><circle cx="860" cy="160" r="4"/><circle cx="940" cy="125" r="5"/>
+  </g>
+  <g>
+    <circle cx="360" cy="610" r="46" fill="#4f1e21"/>
+    <polygon points="322,660 398,660 424,760 296,760" fill="#2f2030"/>
+    <circle cx="600" cy="600" r="50" fill="#735223"/>
+    <polygon points="560,650 640,650 666,760 534,760" fill="#2f2a18"/>
+    <circle cx="840" cy="610" r="46" fill="#244a70"/>
+    <polygon points="802,660 878,660 904,760 776,760" fill="#1d2735"/>
+  </g>
+  <g stroke="#b47b2a" stroke-width="10" stroke-linecap="round">
+    <line x1="600" y1="520" x2="600" y2="430"/>
+    <line x1="600" y1="430" x2="565" y2="400"/>
+    <line x1="600" y1="430" x2="635" y2="400"/>
+  </g>
+  <g fill="#fff7c9">
+    <circle cx="600" cy="420" r="10"/><circle cx="558" cy="400" r="7"/><circle cx="642" cy="400" r="7"/>
+    <circle cx="535" cy="455" r="5"/><circle cx="665" cy="455" r="5"/><circle cx="580" cy="480" r="4"/><circle cx="620" cy="480" r="4"/>
+  </g>
+  <text x="60" y="740" font-family="Arial, sans-serif" font-size="30" fill="#90621b">Part 3: Standing Together</text>
+  <text x="60" y="778" font-family="Arial, sans-serif" font-size="20" fill="#90621b">Courage grows when people stay side by side.</text>
+</svg>

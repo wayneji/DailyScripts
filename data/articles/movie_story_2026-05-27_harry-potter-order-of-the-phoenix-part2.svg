@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f4c2dd"/>
+      <stop offset="100%" stop-color="#fff3fa"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#bg)"/>
+  <rect x="70" y="120" width="1060" height="600" rx="24" fill="#f7d1e4" stroke="#d99ab7" stroke-width="8"/>
+  <g fill="#fff6fb" stroke="#ce8cab" stroke-width="6">
+    <rect x="140" y="170" width="920" height="86" rx="16"/>
+    <rect x="140" y="292" width="920" height="86" rx="16"/>
+    <rect x="140" y="414" width="920" height="86" rx="16"/>
+    <rect x="140" y="536" width="920" height="86" rx="16"/>
+  </g>
+  <g font-family="Arial, sans-serif" font-size="28" fill="#8d446d">
+    <text x="180" y="225">RULE 1: stay quiet and keep your head down</text>
+    <text x="180" y="347">RULE 2: do not question the pink notice</text>
+    <text x="180" y="469">RULE 3: practice, listen, and be brave</text>
+    <text x="180" y="591">RULE 4: friends can help each other learn</text>
+  </g>
+  <g>
+    <circle cx="940" cy="610" r="56" fill="#c67aa4"/>
+    <polygon points="890,660 990,660 1020,760 860,760" fill="#a95c89"/>
+    <rect x="912" y="600" width="56" height="130" rx="8" fill="#fff3fa"/>
+    <circle cx="360" cy="630" r="44" fill="#4f1e21"/>
+    <polygon points="325,675 395,675 420,765 300,765" fill="#2f2030"/>
+    <circle cx="570" cy="640" r="45" fill="#735223"/>
+    <polygon points="535,685 605,685 630,765 510,765" fill="#2f2a18"/>
+    <circle cx="740" cy="630" r="44" fill="#244a70"/>
+    <polygon points="705,675 775,675 800,765 680,765" fill="#1d2735"/>
+  </g>
+  <polygon points="450,520 530,480 580,540 500,590" fill="#ffffff" stroke="#888" stroke-width="3"/>
+  <text x="470" y="548" font-family="Arial, sans-serif" font-size="26" fill="#666">note</text>
+  <text x="60" y="740" font-family="Arial, sans-serif" font-size="30" fill="#7d365c">Part 2: Rules and Fear</text>
+  <text x="60" y="778" font-family="Arial, sans-serif" font-size="20" fill="#7d365c">Strict rules spread, but the students keep learning.</text>
+</svg>
