@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Part 1 - A strange summer night</title>
+  <desc id="desc">A child-friendly fantasy night scene with young wizards flying over a city.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#111827"/><stop offset="1" stop-color="#374151"/></linearGradient>
+    <radialGradient id="moon" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#fff7cc"/><stop offset="1" stop-color="#facc15"/></radialGradient>
+  </defs>
+  <rect width="1200" height="675" fill="url(#sky)"/>
+  <circle cx="1010" cy="115" r="58" fill="url(#moon)" opacity="0.95"/>
+  <g fill="#f9fafb" opacity="0.85"><circle cx="150" cy="85" r="3"/><circle cx="265" cy="140" r="2"/><circle cx="460" cy="70" r="3"/><circle cx="780" cy="160" r="2"/><circle cx="930" cy="240" r="3"/></g>
+  <g transform="translate(0 450)">
+    <rect x="50" y="90" width="90" height="135" fill="#1f2937"/><rect x="185" y="40" width="120" height="185" fill="#111827"/><rect x="350" y="110" width="75" height="115" fill="#1f2937"/><rect x="470" y="65" width="130" height="160" fill="#111827"/><rect x="665" y="25" width="95" height="200" fill="#1f2937"/><rect x="820" y="105" width="110" height="120" fill="#111827"/><rect x="980" y="60" width="120" height="165" fill="#1f2937"/>
+    <g fill="#fde68a" opacity="0.7"><rect x="75" y="115" width="14" height="20"/><rect x="220" y="80" width="14" height="20"/><rect x="505" y="100" width="14" height="20"/><rect x="700" y="65" width="14" height="20"/><rect x="1020" y="95" width="14" height="20"/></g>
+  </g>
+  <g stroke="#fbbf24" stroke-width="8" stroke-linecap="round" fill="none" opacity="0.85"><path d="M210 340 C340 260, 470 330, 610 260"/><path d="M545 290 C680 210, 820 280, 970 190"/></g>
+  <g transform="translate(455 265)">
+    <line x1="-85" y1="45" x2="115" y2="5" stroke="#92400e" stroke-width="10" stroke-linecap="round"/>
+    <circle cx="0" cy="0" r="20" fill="#fcd34d"/><path d="M-22 28 Q0 65 30 28" fill="#2563eb"/><path d="M-10 -18 L18 -5 L-35 -6 Z" fill="#111827"/>
+  </g>
+  <g transform="translate(760 225) scale(.85)">
+    <line x1="-85" y1="45" x2="115" y2="5" stroke="#92400e" stroke-width="10" stroke-linecap="round"/>
+    <circle cx="0" cy="0" r="20" fill="#fcd34d"/><path d="M-22 28 Q0 65 30 28" fill="#7c3aed"/><path d="M-10 -18 L18 -5 L-35 -6 Z" fill="#111827"/>
+  </g>
+  <text x="60" y="80" font-family="Arial, sans-serif" font-size="42" font-weight="700" fill="#ffffff">Part 1: A Strange Summer</text>
+  <text x="60" y="128" font-family="Arial, sans-serif" font-size="24" fill="#d1d5db">A cold night, a letter, and a secret journey</text>
+</svg>
