@@ -1,41 +1,87 @@
-# Harry Potter and the Order of the Phoenix
+---
+title: "Harry Potter and the Order of the Phoenix - 3-Part A2 Story"
+date: "2026-05-27"
+type: "movie_story"
+level: "A2 Key for Schools"
+parts: 3
+images: 3
+source: "Original simplified story inspired by the film/book world"
+---
 
-## Part 1: A Quiet Start
+# Harry Potter and the Order of the Phoenix - 3-Part Story
 
-![Part 1](movie_story_2026-05-27_harry-potter-order-of-the-phoenix-part1.svg)
+This is an original, simplified A2-level story inspired by *Harry Potter and the Order of the Phoenix*. It is not an official Harry Potter text.
 
-Harry Potter came back to Hogwarts feeling tired and lonely. Many students had heard strange news, but they did not know what to believe. The castle felt colder than before. In the hall, people whispered and looked at Harry, then looked away again.
+## Part 1 - A Strange Summer
 
-Harry met Ron and Hermione near the stairs. Ron gave him a small smile and said, “You are not alone.” Hermione nodded. She had a plan. “We need a safe place to talk,” she said. “A place where students can learn to protect themselves.”
+![Part 1 - A Strange Summer](./movie_story_2026-05-27_harry-potter-order-of-the-phoenix-3-parts_part1.svg)
 
-That night, they walked through the dark halls and found the Room of Requirement. The door appeared when Harry needed it most. Inside, the room was empty at first, but then it changed into a warm place with chairs, candles, and space for books. Harry felt hope return to his chest.
+Harry was staying with the Dursleys again, and the summer felt longer than ever. He had no news from his friends, and every day was quiet and boring. One evening, Harry walked through the streets near the park. The sky was grey, and the air suddenly became very cold.
 
-He told the others that the school needed courage, not fear. Some students were shy. Some were nervous. But they listened. Harry did not speak like a hero from a book. He spoke like a friend who wanted to help. The students agreed to meet again and learn simple spells together.
+Then something strange happened. Two dark creatures appeared near him. Harry knew they were dangerous. He quickly took out his wand and shouted a spell. A bright light came from the wand, and the creatures disappeared.
 
-Harry learned that a small group can become strong when people trust each other. It was only the first step, but it was an important one.
+Soon after, Harry received a letter. It said he had used magic outside school and had to go to a hearing. Harry was worried. He did not want to leave Hogwarts forever.
 
-## Part 2: Rules and Fear
+That night, a group of witches and wizards came to take him away. They flew over London on broomsticks. At last, they arrived at a secret house. Inside, Harry saw Sirius, Hermione, and Ron. They told him about a group called the Order of the Phoenix.
 
-![Part 2](movie_story_2026-05-27_harry-potter-order-of-the-phoenix-part2.svg)
+**Image idea:** A teenage wizard flying on a broomstick over London at night with a small group of witches and wizards, dark blue sky, city lights below, magical but child-friendly style.
 
-Soon, the school became harder. Professor Umbridge wrote strict rules on pink paper and pinned them everywhere. Students were told what to say, where to go, and even how to stand. The hallways felt full of warning signs. People lowered their voices and walked faster.
+## Part 2 - Lessons and Secrets
 
-Harry hated the way fear spread through the castle. But he did not want to shout back. He wanted to help the students who were scared. So he met them again in the Room of Requirement. The room gave them a clean floor, soft light, and enough space for practice. Ron helped with one spell, and Hermione wrote clear notes on a board. Even Neville tried again after making a mistake.
+![Part 2 - Lessons and Secrets](./movie_story_2026-05-27_harry-potter-order-of-the-phoenix-3-parts_part2.svg)
 
-Then a noise came from the corridor. Everyone froze. They heard footsteps and a sharp voice. The room went quiet like a held breath. Harry raised his hand and told the group to stay calm. They hid their books and stood still until the sound moved away.
+Harry returned to Hogwarts, but school was very different this year. A new teacher, Professor Umbridge, came to teach Defence Against the Dark Arts. She wore pink clothes and smiled a lot, but she was not kind. She did not let students practise real magic. They only read from books.
 
-After that, Harry looked at the faces around him. They were still nervous, but they were no longer alone. He saw courage growing in small steps. He understood that bravery was not only fighting. Sometimes bravery was staying steady when fear was trying to win.
+Many students believed Harry, but some did not. Harry felt angry and alone. Hermione had an idea. She said Harry should teach the other students how to protect themselves. At first, Harry was not sure, but Ron and Hermione helped him.
 
-## Part 3: Standing Together
+They made a secret group called Dumbledore's Army. The students met in a hidden room at school. Harry taught them useful spells. Everyone worked hard, and the room was full of hope.
 
-![Part 3](movie_story_2026-05-27_harry-potter-order-of-the-phoenix-part3.svg)
+But Harry was also having strange dreams. In one dream, he saw a dark place and a door. He felt that something important was hidden there. He did not understand why these dreams were happening, but he knew they were connected to Voldemort.
 
-One evening, the students gathered again. They were not perfect. Some still mixed up spells. Some still felt afraid. But they came back because they wanted to learn and because they trusted Harry. That trust was stronger than any rule on a wall.
+**Image idea:** A secret classroom in a magical school, young students practising safe glowing spells together, old stone walls, warm light, books and school bags, child-friendly fantasy style.
 
-Harry looked at the group and said, “We do not need to be the best. We only need to stand together.” The words were simple, but they felt true. The room warmed around them, as if it agreed.
+## Part 3 - The Ministry Adventure
 
-Then a problem came. A message reached them that danger was close. Harry’s heart jumped, but he did not run away. He listened, thought, and chose a careful path. Ron stayed beside him. Hermione checked the facts. The younger students helped too, carrying notes and opening doors. Everyone had a small job.
+![Part 3 - The Ministry Adventure](./movie_story_2026-05-27_harry-potter-order-of-the-phoenix-3-parts_part3.svg)
 
-By working as one team, they found a safer way forward. They did not remove every fear from the castle, but they proved something important: fear becomes smaller when people share it and face it together.
+One night, Harry had a terrible dream. He thought Sirius was in danger at the Ministry of Magic. Harry wanted to help him at once. Hermione and Ron tried to be careful, but Harry was afraid there was no time.
 
-When the night ended, Harry felt tired, but he also felt proud. He learned that the Order of the Phoenix was not only a name. It was an idea. People can rise again when they choose trust, kindness, and courage.
+Harry and his friends went to the Ministry. The building was dark and quiet. They found a room full of glass balls. One ball had Harry's name on it. Then some dangerous people appeared. Harry understood it was a trap.
+
+The friends acted bravely. They used the spells Harry had taught them, but the other group was strong. Soon, members of the Order of the Phoenix arrived to help. The room became full of light, noise, and magic.
+
+Harry lost someone he loved, and he felt very sad. Later, Dumbledore told Harry more about the connection between him and Voldemort. Harry learned that growing up could be painful, but he was not alone. His friends, his teachers, and the Order would stand with him.
+
+**Image idea:** A dark magical hall with shelves of glowing glass balls, brave young wizards standing together with wands, soft magical light, dramatic but not scary, child-friendly fantasy style.
+
+## Useful A2 Words
+
+- strange
+- dangerous
+- secret
+- group
+- practise
+- dream
+- afraid
+- brave
+- arrive
+- alone
+- teacher
+- friends
+- magic
+- school
+- lesson
+
+## Reading Questions
+
+1. Why was Harry worried after he used magic outside school?
+2. Why did Hermione think Harry should teach the other students?
+3. Where did Harry and his friends go in Part 3?
+4. What did Harry learn at the end of the story?
+
+## Short Answers
+
+1. Because he had to go to a hearing and he was afraid he might leave Hogwarts.
+2. Because the new teacher did not let them practise real magic.
+3. They went to the Ministry of Magic.
+4. He learned that growing up could be painful, but he was not alone.
