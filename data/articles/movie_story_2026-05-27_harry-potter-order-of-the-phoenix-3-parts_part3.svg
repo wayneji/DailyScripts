@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Part 3 - The Ministry Adventure</title>
+  <desc id="desc">A child-friendly fantasy hall with glowing glass balls and brave students standing together.</desc>
+  <defs>
+    <linearGradient id="hall" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#020617"/><stop offset="1" stop-color="#312e81"/></linearGradient>
+    <radialGradient id="orb" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#ffffff"/><stop offset="0.35" stop-color="#c4b5fd"/><stop offset="1" stop-color="#7c3aed" stop-opacity="0.2"/></radialGradient>
+  </defs>
+  <rect width="1200" height="675" fill="url(#hall)"/>
+  <g opacity="0.75">
+    <rect x="90" y="135" width="160" height="420" rx="18" fill="#111827" stroke="#6366f1" stroke-width="3"/>
+    <rect x="950" y="135" width="160" height="420" rx="18" fill="#111827" stroke="#6366f1" stroke-width="3"/>
+    <rect x="310" y="95" width="580" height="85" rx="18" fill="#111827" stroke="#6366f1" stroke-width="3"/>
+  </g>
+  <g>
+    <circle cx="160" cy="210" r="18" fill="url(#orb)"/><circle cx="205" cy="280" r="15" fill="url(#orb)"/><circle cx="150" cy="360" r="20" fill="url(#orb)"/><circle cx="220" cy="455" r="17" fill="url(#orb)"/>
+    <circle cx="1000" cy="225" r="18" fill="url(#orb)"/><circle cx="1060" cy="305" r="16" fill="url(#orb)"/><circle cx="1015" cy="395" r="20" fill="url(#orb)"/><circle cx="1065" cy="485" r="15" fill="url(#orb)"/>
+    <circle cx="380" cy="137" r="15" fill="url(#orb)"/><circle cx="510" cy="137" r="18" fill="url(#orb)"/><circle cx="650" cy="137" r="16" fill="url(#orb)"/><circle cx="785" cy="137" r="20" fill="url(#orb)"/>
+  </g>
+  <ellipse cx="600" cy="560" rx="420" ry="70" fill="#000000" opacity="0.35"/>
+  <g transform="translate(420 440)">
+    <circle cx="0" cy="-95" r="28" fill="#fcd34d"/><path d="M-30 -58 Q0 20 38 -58" fill="#2563eb"/><line x1="25" y1="-65" x2="125" y2="-130" stroke="#92400e" stroke-width="8" stroke-linecap="round"/><circle cx="132" cy="-136" r="14" fill="#fde68a" opacity="0.95"/>
+  </g>
+  <g transform="translate(600 470)">
+    <circle cx="0" cy="-95" r="28" fill="#fcd34d"/><path d="M-30 -58 Q0 20 38 -58" fill="#7c3aed"/><line x1="-18" y1="-65" x2="-120" y2="-125" stroke="#92400e" stroke-width="8" stroke-linecap="round"/><circle cx="-128" cy="-130" r="14" fill="#fde68a" opacity="0.95"/>
+  </g>
+  <g transform="translate(780 440)">
+    <circle cx="0" cy="-95" r="28" fill="#fcd34d"/><path d="M-30 -58 Q0 20 38 -58" fill="#059669"/><line x1="20" y1="-65" x2="110" y2="-115" stroke="#92400e" stroke-width="8" stroke-linecap="round"/><circle cx="118" cy="-120" r="14" fill="#fde68a" opacity="0.95"/>
+  </g>
+  <text x="60" y="80" font-family="Arial, sans-serif" font-size="42" font-weight="700" fill="#ffffff">Part 3: The Ministry Adventure</text>
+  <text x="60" y="128" font-family="Arial, sans-serif" font-size="24" fill="#ddd6fe">A trap, a brave moment, and a hard lesson</text>
+</svg>
