@@ -1,31 +1,38 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
   <title id="title">Part 3 - The Ministry Adventure</title>
-  <desc id="desc">A child-friendly fantasy hall with glowing glass balls and brave students standing together.</desc>
+  <desc id="desc">A child-friendly cartoon fantasy scene showing brave young wizards together in a mysterious hall of glowing glass orbs.</desc>
   <defs>
-    <linearGradient id="hall" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#020617"/><stop offset="1" stop-color="#312e81"/></linearGradient>
-    <radialGradient id="orb" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#ffffff"/><stop offset="0.35" stop-color="#c4b5fd"/><stop offset="1" stop-color="#7c3aed" stop-opacity="0.2"/></radialGradient>
+    <linearGradient id="hall" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#06112d"/><stop offset="0.55" stop-color="#18206a"/><stop offset="1" stop-color="#2e1065"/></linearGradient>
+    <radialGradient id="orb" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#ffffff"/><stop offset="0.42" stop-color="#c4b5fd"/><stop offset="1" stop-color="#7c3aed" stop-opacity="0.15"/></radialGradient>
+    <radialGradient id="light" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#fffde7"/><stop offset="0.38" stop-color="#fde68a"/><stop offset="1" stop-color="#fde68a" stop-opacity="0"/></radialGradient>
+    <filter id="blur" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="10"/></filter>
   </defs>
   <rect width="1200" height="675" fill="url(#hall)"/>
-  <g opacity="0.75">
-    <rect x="90" y="135" width="160" height="420" rx="18" fill="#111827" stroke="#6366f1" stroke-width="3"/>
-    <rect x="950" y="135" width="160" height="420" rx="18" fill="#111827" stroke="#6366f1" stroke-width="3"/>
-    <rect x="310" y="95" width="580" height="85" rx="18" fill="#111827" stroke="#6366f1" stroke-width="3"/>
+  <path d="M0 90 C180 20 380 55 600 25 C820 55 1010 20 1200 90 V675 H0 Z" fill="#020617" opacity="0.22"/>
+  <g opacity="0.9">
+    <path d="M70 75 C145 40 230 40 305 75 V610 H70 Z" fill="#111827" stroke="#5b21b6" stroke-width="4"/>
+    <path d="M895 75 C970 40 1055 40 1130 75 V610 H895 Z" fill="#111827" stroke="#5b21b6" stroke-width="4"/>
+    <path d="M360 55 H840 V150 H360 Z" fill="#111827" stroke="#5b21b6" stroke-width="4"/>
   </g>
   <g>
-    <circle cx="160" cy="210" r="18" fill="url(#orb)"/><circle cx="205" cy="280" r="15" fill="url(#orb)"/><circle cx="150" cy="360" r="20" fill="url(#orb)"/><circle cx="220" cy="455" r="17" fill="url(#orb)"/>
-    <circle cx="1000" cy="225" r="18" fill="url(#orb)"/><circle cx="1060" cy="305" r="16" fill="url(#orb)"/><circle cx="1015" cy="395" r="20" fill="url(#orb)"/><circle cx="1065" cy="485" r="15" fill="url(#orb)"/>
-    <circle cx="380" cy="137" r="15" fill="url(#orb)"/><circle cx="510" cy="137" r="18" fill="url(#orb)"/><circle cx="650" cy="137" r="16" fill="url(#orb)"/><circle cx="785" cy="137" r="20" fill="url(#orb)"/>
+    <circle cx="120" cy="145" r="30" fill="url(#orb)"/><circle cx="235" cy="150" r="22" fill="url(#orb)"/><circle cx="145" cy="245" r="25" fill="url(#orb)"/><circle cx="245" cy="305" r="30" fill="url(#orb)"/><circle cx="125" cy="405" r="22" fill="url(#orb)"/><circle cx="238" cy="490" r="26" fill="url(#orb)"/>
+    <circle cx="955" cy="150" r="24" fill="url(#orb)"/><circle cx="1060" cy="155" r="30" fill="url(#orb)"/><circle cx="980" cy="255" r="26" fill="url(#orb)"/><circle cx="1070" cy="335" r="22" fill="url(#orb)"/><circle cx="955" cy="430" r="30" fill="url(#orb)"/><circle cx="1065" cy="505" r="24" fill="url(#orb)"/>
+    <circle cx="415" cy="102" r="20" fill="url(#orb)"/><circle cx="510" cy="102" r="24" fill="url(#orb)"/><circle cx="605" cy="102" r="20" fill="url(#orb)"/><circle cx="705" cy="102" r="25" fill="url(#orb)"/><circle cx="800" cy="102" r="20" fill="url(#orb)"/>
   </g>
-  <ellipse cx="600" cy="560" rx="420" ry="70" fill="#000000" opacity="0.35"/>
-  <g transform="translate(420 440)">
-    <circle cx="0" cy="-95" r="28" fill="#fcd34d"/><path d="M-30 -58 Q0 20 38 -58" fill="#2563eb"/><line x1="25" y1="-65" x2="125" y2="-130" stroke="#92400e" stroke-width="8" stroke-linecap="round"/><circle cx="132" cy="-136" r="14" fill="#fde68a" opacity="0.95"/>
-  </g>
-  <g transform="translate(600 470)">
-    <circle cx="0" cy="-95" r="28" fill="#fcd34d"/><path d="M-30 -58 Q0 20 38 -58" fill="#7c3aed"/><line x1="-18" y1="-65" x2="-120" y2="-125" stroke="#92400e" stroke-width="8" stroke-linecap="round"/><circle cx="-128" cy="-130" r="14" fill="#fde68a" opacity="0.95"/>
-  </g>
-  <g transform="translate(780 440)">
-    <circle cx="0" cy="-95" r="28" fill="#fcd34d"/><path d="M-30 -58 Q0 20 38 -58" fill="#059669"/><line x1="20" y1="-65" x2="110" y2="-115" stroke="#92400e" stroke-width="8" stroke-linecap="round"/><circle cx="118" cy="-120" r="14" fill="#fde68a" opacity="0.95"/>
-  </g>
-  <text x="60" y="80" font-family="Arial, sans-serif" font-size="42" font-weight="700" fill="#ffffff">Part 3: The Ministry Adventure</text>
-  <text x="60" y="128" font-family="Arial, sans-serif" font-size="24" fill="#ddd6fe">A trap, a brave moment, and a hard lesson</text>
+  <g opacity="0.6" stroke="#8b5cf6" stroke-width="2" fill="none"><path d="M600 35 C535 70 535 125 600 155 C665 125 665 70 600 35 Z"/><circle cx="600" cy="95" r="78"/><circle cx="600" cy="95" r="110"/></g>
+  <ellipse cx="600" cy="585" rx="465" ry="75" fill="#020617" opacity="0.55"/>
+  <ellipse cx="600" cy="405" rx="390" ry="230" fill="#8b5cf6" opacity="0.13" filter="url(#blur)"/>
+  <g transform="translate(465 410)">
+    <circle cx="0" cy="-70" r="38" fill="#f2c08a"/><path d="M-50 -88 C-25 -138 36 -130 55 -78 C22 -103 -16 -102 -50 -88 Z" fill="#2b1a16"/><path d="M-54 -28 Q0 98 70 -28 Z" fill="#10264f"/><path d="M-25 -25 L35 -29 L8 42 Z" fill="#8d1c24"/><circle cx="-13" cy="-70" r="5" fill="#111"/><circle cx="15" cy="-70" r="5" fill="#111"/><line x1="35" y1="-28" x2="112" y2="-118" stroke="#8b5a2b" stroke-width="9" stroke-linecap="round"/><circle cx="118" cy="-125" r="18" fill="#fde68a"/><circle cx="118" cy="-125" r="76" fill="url(#light)" opacity="0.5"/></g>
+  <g transform="translate(300 430) scale(.83)">
+    <circle cx="0" cy="-70" r="36" fill="#f5bd8a"/><path d="M-50 -86 C-25 -134 32 -128 55 -78 C18 -104 -16 -100 -50 -86 Z" fill="#b45309"/><path d="M-54 -28 Q0 92 70 -28 Z" fill="#6d28d9"/><path d="M-48 -111 L0 -160 L50 -103 Z" fill="#5b21b6"/><line x1="35" y1="-28" x2="105" y2="-106" stroke="#8b5a2b" stroke-width="8" stroke-linecap="round"/><circle cx="110" cy="-112" r="15" fill="#f0abfc"/></g>
+  <g transform="translate(650 425) scale(.86)">
+    <circle cx="0" cy="-70" r="36" fill="#f2c08a"/><path d="M-52 -87 C-20 -142 38 -130 55 -78 C22 -108 -12 -100 -52 -87 Z" fill="#f1c27d"/><path d="M-54 -28 Q0 92 70 -28 Z" fill="#4c1d95"/><line x1="-34" y1="-28" x2="-105" y2="-106" stroke="#8b5a2b" stroke-width="8" stroke-linecap="round"/><circle cx="-110" cy="-112" r="15" fill="#bfdbfe"/></g>
+  <g transform="translate(805 430) scale(.8)">
+    <circle cx="0" cy="-70" r="36" fill="#a66f4f"/><path d="M-50 -86 C-25 -132 34 -132 56 -78 C22 -98 -16 -103 -50 -86 Z" fill="#111827"/><path d="M-54 -28 Q0 92 70 -28 Z" fill="#0f5132"/><circle cx="-13" cy="-70" r="14" fill="none" stroke="#111" stroke-width="3"/><circle cx="14" cy="-70" r="14" fill="none" stroke="#111" stroke-width="3"/><line x1="33" y1="-28" x2="105" y2="-110" stroke="#8b5a2b" stroke-width="8" stroke-linecap="round"/><circle cx="110" cy="-116" r="15" fill="#86efac"/></g>
+  <g fill="#fde68a" opacity="0.95"><circle cx="330" cy="210" r="4"/><circle cx="430" cy="178" r="3"/><circle cx="760" cy="212" r="4"/><circle cx="870" cy="265" r="3"/><circle cx="570" cy="230" r="3"/><circle cx="610" cy="310" r="4"/><circle cx="695" cy="525" r="3"/></g>
+  <g stroke="#fde68a" stroke-width="5" stroke-linecap="round" opacity="0.65" fill="none"><path d="M312 322 C405 260 475 275 575 220"/><path d="M650 320 C720 270 770 278 850 230"/><path d="M500 275 C565 245 640 245 700 275"/></g>
+  <g transform="translate(585 548)"><path d="M-160 40 C-70 -10 75 -10 170 40" fill="#d6c0a0" opacity="0.9"/><path d="M-130 28 L145 28" stroke="#7c4a22" stroke-width="4"/><path d="M-90 12 C-40 -10 60 -10 110 12" stroke="#7c4a22" stroke-width="3" fill="none"/></g>
+  <g transform="translate(190 115) scale(.42)"><path d="M0 20 C30 -5 55 -5 85 20 C55 10 30 10 0 20 Z" fill="#f5f5f5"/><circle cx="43" cy="16" r="15" fill="#fff"/><circle cx="37" cy="13" r="4" fill="#111"/><circle cx="49" cy="13" r="4" fill="#111"/><path d="M43 19 L38 28 H49 Z" fill="#eab308"/></g>
+  <text x="445" y="630" text-anchor="middle" font-family="Arial" font-size="22" fill="#e9d5ff">teamwork</text><text x="600" y="632" text-anchor="middle" font-family="Arial" font-size="22" fill="#e9d5ff">courage</text><text x="750" y="630" text-anchor="middle" font-family="Arial" font-size="22" fill="#e9d5ff">hope</text>
 </svg>
