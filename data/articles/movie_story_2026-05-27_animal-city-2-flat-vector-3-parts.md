@@ -1,17 +1,4 @@
----
-title: "Animal City 2 - 3-Part A2 Story"
-date: "2026-05-27"
-type: "movie_story"
-level: "A2 Key for Schools"
-parts: 3
-images: 3
-source: "Original simplified animal-city mystery story"
-style: "flat vector art, simple geometric shapes"
----
-
-# Animal City 2 - 3-Part Story
-
-This is an original, simplified A2-level animal-city mystery story. The pictures use original animal characters in a flat vector art style.
+# Animal City 2
 
 ## Part 1 - A New Case
 
