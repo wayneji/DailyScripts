@@ -1,16 +1,5 @@
----
-title: "Harry Potter and the Order of the Phoenix - 3-Part A2 Story"
-date: "2026-05-27"
-type: "movie_story"
-level: "A2 Key for Schools"
-parts: 3
-images: 3
-source: "Original simplified story inspired by the film/book world"
----
 
-# Harry Potter and the Order of the Phoenix - 3-Part Story
-
-This is an original, simplified A2-level story inspired by *Harry Potter and the Order of the Phoenix*. It is not an official Harry Potter text.
+# Harry Potter and the Order of the Phoenix
 
 ## Part 1 - A Strange Summer
 
@@ -24,8 +13,6 @@ Soon after, Harry received a letter. It said he had used magic outside school an
 
 That night, a group of witches and wizards came to take him away. They flew over London on broomsticks. At last, they arrived at a secret house. Inside, Harry saw Sirius, Hermione, and Ron. They told him about a group called the Order of the Phoenix.
 
-**Image idea:** A teenage wizard flying on a broomstick over London at night with a small group of witches and wizards, dark blue sky, city lights below, magical but child-friendly style.
-
 ## Part 2 - Lessons and Secrets
 
 ![Part 2 - Lessons and Secrets](./movie_story_2026-05-27_harry-potter-order-of-the-phoenix-3-parts_part2.svg)
@@ -37,8 +24,6 @@ Many students believed Harry, but some did not. Harry felt angry and alone. Herm
 They made a secret group called Dumbledore's Army. The students met in a hidden room at school. Harry taught them useful spells. Everyone worked hard, and the room was full of hope.
 
 But Harry was also having strange dreams. In one dream, he saw a dark place and a door. He felt that something important was hidden there. He did not understand why these dreams were happening, but he knew they were connected to Voldemort.
-
-**Image idea:** A secret classroom in a magical school, young students practising safe glowing spells together, old stone walls, warm light, books and school bags, child-friendly fantasy style.
 
 ## Part 3 - The Ministry Adventure
 
@@ -52,7 +37,6 @@ The friends acted bravely. They used the spells Harry had taught them, but the o
 
 Harry lost someone he loved, and he felt very sad. Later, Dumbledore told Harry more about the connection between him and Voldemort. Harry learned that growing up could be painful, but he was not alone. His friends, his teachers, and the Order would stand with him.
 
-**Image idea:** A dark magical hall with shelves of glowing glass balls, brave young wizards standing together with wands, soft magical light, dramatic but not scary, child-friendly fantasy style.
 
 ## Useful A2 Words
 
