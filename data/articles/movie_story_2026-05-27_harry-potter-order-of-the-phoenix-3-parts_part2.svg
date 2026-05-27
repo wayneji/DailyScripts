@@ -1,26 +1,26 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
-  <title id="title">Part 2 - Lessons and secrets</title>
-  <desc id="desc">A child-friendly fantasy classroom where students practise safe glowing spells.</desc>
+  <title id="title">Part 2 - Lessons and Secrets</title>
+  <desc id="desc">A warm cartoon fantasy scene showing an original young wizard teaching friends in a secret practice room.</desc>
   <defs>
-    <linearGradient id="wall" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#78350f"/><stop offset="1" stop-color="#1f2937"/></linearGradient>
-    <radialGradient id="glow" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#fef3c7"/><stop offset="1" stop-color="#f59e0b" stop-opacity="0"/></radialGradient>
+    <linearGradient id="room" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1e293b"/><stop offset="0.55" stop-color="#3b2f2f"/><stop offset="1" stop-color="#7c2d12"/></linearGradient>
+    <radialGradient id="gold" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#fff7cc"/><stop offset="0.35" stop-color="#fbbf24"/><stop offset="1" stop-color="#fbbf24" stop-opacity="0"/></radialGradient>
+    <filter id="blur" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="10"/></filter>
   </defs>
-  <rect width="1200" height="675" fill="url(#wall)"/>
-  <rect x="80" y="120" width="1040" height="440" rx="30" fill="#111827" opacity="0.55"/>
-  <g fill="#6b7280" opacity="0.65">
-    <rect x="120" y="155" width="140" height="80" rx="10"/><rect x="290" y="155" width="140" height="80" rx="10"/><rect x="460" y="155" width="140" height="80" rx="10"/><rect x="630" y="155" width="140" height="80" rx="10"/><rect x="800" y="155" width="140" height="80" rx="10"/>
+  <rect width="1200" height="675" fill="url(#room)"/>
+  <path d="M80 80 H1120 V585 H80 Z" fill="#111827" opacity="0.28"/>
+  <path d="M130 80 C130 20 305 20 305 80 V270 H130 Z" fill="#0b1a38" stroke="#5b6b8b" stroke-width="5"/><path d="M150 85 C165 55 270 55 285 85 V250 H150 Z" fill="#08214f"/><circle cx="218" cy="88" r="2.5" fill="#fff6bf"/><circle cx="255" cy="135" r="2" fill="#fff6bf"/><circle cx="177" cy="165" r="2" fill="#fff6bf"/>
+  <rect x="42" y="126" width="190" height="145" rx="10" fill="#0f172a" stroke="#8b5a2b" stroke-width="8"/><text x="62" y="165" font-family="Arial" font-size="24" fill="#fde68a">Practice Wisely</text><text x="65" y="203" font-family="Arial" font-size="18" fill="#e5e7eb">• Focus</text><text x="65" y="230" font-family="Arial" font-size="18" fill="#e5e7eb">• Kindness</text><text x="65" y="257" font-family="Arial" font-size="18" fill="#e5e7eb">• Courage</text>
+  <rect x="940" y="80" width="185" height="205" rx="6" fill="#f5e2bd" stroke="#8b5a2b" stroke-width="5"/><text x="977" y="128" font-family="Georgia" font-size="21" fill="#4b2a17">SCHOOL</text><text x="970" y="158" font-family="Georgia" font-size="23" fill="#4b2a17">NOTICE</text><text x="980" y="205" font-family="Georgia" font-size="20" fill="#4b2a17">No practice</text><text x="992" y="233" font-family="Georgia" font-size="20" fill="#4b2a17">today</text>
+  <g transform="translate(0 468)\"><ellipse cx="600" cy="70" rx="470" ry="88" fill="#0f172a" opacity="0.55"/><rect x="0" y="75" width="1200" height="207" fill="#28190e" opacity="0.85"/></g>
+  <ellipse cx="600" cy="375" rx="430" ry="210" fill="#f59e0b" opacity="0.15" filter="url(#blur)"/>
+  <g fill="#6b4d2e" opacity="0.8"><rect x="35" y="548" width="120" height="22" rx="5"/><rect x="85" y="512" width="150" height="24" rx="5"/><rect x="956" y="520" width="155" height="23" rx="5"/><rect x="900" y="555" width="125" height="22" rx="5"/></g>
+  <g transform="translate(600 300)">
+    <circle cx="0" cy="0" r="44" fill="#f2c08a"/><path d="M-54 -16 C-25 -76 42 -68 58 -10 C25 -38 -18 -36 -54 -16 Z" fill="#2b1a16"/><path d="M-58 42 Q0 170 74 42 Z" fill="#10264f"/><path d="M-28 45 L38 42 L8 108 Z" fill="#8d1c24"/><circle cx="-15" cy="0" r="6" fill="#111"/><circle cx="17" cy="0" r="6" fill="#111"/><path d="M-14 19 Q4 36 24 16" stroke="#6b2e1a" stroke-width="4" fill="none"/><line x1="45" y1="40" x2="133" y2="-60" stroke="#8b5a2b" stroke-width="9" stroke-linecap="round"/><path d="M135 -62 C185 -116 244 -95 201 -35 C257 -45 244 29 181 8 C179 62 106 32 151 -4" stroke="#fbbf24" stroke-width="6" fill="none" opacity="0.95"/><circle cx="170" cy="-30" r="80" fill="url(#gold)" opacity="0.45"/>
   </g>
-  <ellipse cx="600" cy="360" rx="410" ry="165" fill="url(#glow)" opacity="0.95"/>
-  <g transform="translate(230 365)">
-    <circle cx="0" cy="-70" r="28" fill="#fcd34d"/><path d="M-28 -35 Q0 25 35 -35" fill="#2563eb"/><line x1="20" y1="-30" x2="105" y2="-95" stroke="#92400e" stroke-width="8" stroke-linecap="round"/><circle cx="110" cy="-100" r="18" fill="#fde68a" opacity="0.9"/>
-  </g>
-  <g transform="translate(505 405)">
-    <circle cx="0" cy="-70" r="28" fill="#fcd34d"/><path d="M-28 -35 Q0 25 35 -35" fill="#7c3aed"/><line x1="25" y1="-35" x2="110" y2="-80" stroke="#92400e" stroke-width="8" stroke-linecap="round"/><circle cx="115" cy="-83" r="18" fill="#fde68a" opacity="0.9"/>
-  </g>
-  <g transform="translate(780 365)">
-    <circle cx="0" cy="-70" r="28" fill="#fcd34d"/><path d="M-28 -35 Q0 25 35 -35" fill="#059669"/><line x1="-25" y1="-35" x2="-110" y2="-90" stroke="#92400e" stroke-width="8" stroke-linecap="round"/><circle cx="-116" cy="-94" r="18" fill="#fde68a" opacity="0.9"/>
-  </g>
-  <g fill="#f3f4f6" opacity="0.95"><rect x="170" y="520" width="110" height="18" rx="5"/><rect x="480" y="540" width="150" height="18" rx="5"/><rect x="775" y="515" width="135" height="18" rx="5"/></g>
-  <text x="60" y="80" font-family="Arial, sans-serif" font-size="42" font-weight="700" fill="#ffffff">Part 2: Lessons and Secrets</text>
-  <text x="60" y="128" font-family="Arial, sans-serif" font-size="24" fill="#fde68a">A hidden room, real practice, and strange dreams</text>
+  <g transform="translate(315 405) scale(.85)"><circle cx="0" cy="-55" r="33" fill="#f5bd8a"/><path d="M-45 -73 C-20 -115 32 -110 48 -65 C10 -82 -20 -80 -45 -73 Z" fill="#b45309"/><path d="M-46 -20 Q0 92 60 -20 Z" fill="#6d28d9"/><path d="M-45 -98 L8 -148 L55 -88 Z" fill="#5b21b6"/><line x1="35" y1="-18" x2="115" y2="-92" stroke="#8b5a2b" stroke-width="8" stroke-linecap="round"/><path d="M120 -96 C150 -125 180 -90 145 -70" stroke="#f0abfc" stroke-width="6" fill="none"/></g>
+  <g transform="translate(470 435) scale(.78)"><circle cx="0" cy="-55" r="33" fill="#a66f4f"/><path d="M-45 -72 C-20 -113 35 -113 50 -66 C12 -85 -18 -82 -45 -72 Z" fill="#111827"/><path d="M-46 -20 Q0 92 60 -20 Z" fill="#0f5132"/><circle cx="-12" cy="-55" r="13" fill="none" stroke="#111" stroke-width="3"/><circle cx="13" cy="-55" r="13" fill="none" stroke="#111" stroke-width="3"/><line x1="35" y1="-16" x2="95" y2="-75" stroke="#8b5a2b" stroke-width="7" stroke-linecap="round"/><circle cx="100" cy="-80" r="12" fill="#93c5fd"/></g>
+  <g transform="translate(780 430) scale(.83)"><circle cx="0" cy="-55" r="33" fill="#f2c08a"/><path d="M-45 -72 C-18 -120 35 -112 50 -66 C15 -88 -15 -80 -45 -72 Z" fill="#f1c27d"/><path d="M-46 -20 Q0 92 60 -20 Z" fill="#4c1d95"/><line x1="-32" y1="-18" x2="-115" y2="-88" stroke="#8b5a2b" stroke-width="8" stroke-linecap="round"/><path d="M-120 -92 C-160 -128 -190 -88 -145 -68" stroke="#fbbf24" stroke-width="6" fill="none"/></g>
+  <g transform="translate(930 415) scale(.72)"><circle cx="0" cy="-55" r="33" fill="#d6a27b"/><path d="M-45 -70 C-20 -105 28 -108 50 -65 C12 -78 -18 -80 -45 -70 Z" fill="#3f2a1f"/><path d="M-46 -20 Q0 92 60 -20 Z" fill="#064e3b"/><line x1="-32" y1="-18" x2="-110" y2="-78" stroke="#8b5a2b" stroke-width="8" stroke-linecap="round"/><path d="M-113 -84 C-140 -110 -165 -80 -135 -55" stroke="#86efac" stroke-width="6" fill="none"/></g>
+  <g transform="translate(600 555)"><rect x="-130" y="0" width="260" height="55" rx="8" fill="#e7d3ad" stroke="#9a6a3a" stroke-width="3"/><line x1="0" y1="4" x2="0" y2="52" stroke="#9a6a3a"/><text x="-100" y="34" font-family="Arial" font-size="20" fill="#5b3417">SAFE SPELLS</text><text x="25" y="34" font-family="Arial" font-size="20" fill="#5b3417">PRACTICE</text></g>
+  <g fill="#fde68a" opacity="0.95"><circle cx="160" cy="525" r="28"/><circle cx="1010" cy="520" r="22"/><circle cx="1055" cy="340" r="7"/><circle cx="720" cy="175" r="5"/><circle cx="850" cy="210" r="4"/></g>
 </svg>
