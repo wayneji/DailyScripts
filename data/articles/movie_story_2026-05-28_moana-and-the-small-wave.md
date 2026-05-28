@@ -1,5 +1,7 @@
 # Moana and the Small Wave
 
+![Three-panel picture prompt](./movie_story_2026-05-28_moana-and-the-small-wave-3-panel.svg)
+
 ## Part 1: The Calm Sea
 
 Moana woke up early on Motunui. The sky was pink, and the sea was quiet. She walked to the beach and looked at the water. She loved the ocean because it felt alive and kind. On this morning, Moana wanted to help her island in a small way. Some fish were not coming near the shore, and the village baskets were getting empty.
