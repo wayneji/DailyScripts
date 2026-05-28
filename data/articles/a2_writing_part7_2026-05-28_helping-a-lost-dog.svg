@@ -1,0 +1,125 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">A2 Key for Schools Writing Part 7 picture story prompts</title>
+  <desc id="desc">Three black-and-white picture prompts: two children find a lost dog in a park, take it to the address on its collar, and return it to an old woman.</desc>
+  <rect x="0" y="0" width="1200" height="360" fill="white"/>
+  <style>
+    .box{fill:white;stroke:#111;stroke-width:3}.line{fill:none;stroke:#111;stroke-width:3;stroke-linecap:round;stroke-linejoin:round}.thin{fill:none;stroke:#111;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}.gray{fill:#eeeeee;stroke:#111;stroke-width:2}.dark{fill:#444;stroke:#111;stroke-width:2}.light{fill:#f7f7f7;stroke:#111;stroke-width:2}.text{font-family:Arial,sans-serif;font-size:16px;fill:#111}
+  </style>
+  <!-- panels -->
+  <rect class="box" x="10" y="10" width="380" height="340"/>
+  <rect class="box" x="410" y="10" width="380" height="340"/>
+  <rect class="box" x="810" y="10" width="380" height="340"/>
+
+  <!-- Panel 1: park and lost dog -->
+  <line class="thin" x1="25" y1="285" x2="375" y2="285"/>
+  <path class="thin" d="M35 255 C95 230,150 235,210 250 S325 268,375 245"/>
+  <circle class="light" cx="70" cy="58" r="26"/>
+  <path class="thin" d="M55 58 C65 48,75 48,85 58"/>
+  <path class="line" d="M275 220 L360 220 L350 250 L260 250 Z"/>
+  <line class="line" x1="285" y1="250" x2="275" y2="280"/>
+  <line class="line" x1="345" y1="250" x2="355" y2="280"/>
+  <path class="thin" d="M270 215 H365"/>
+  <path class="thin" d="M278 232 H356"/>
+  <path class="line" d="M335 110 C338 75,370 55,388 40"/>
+  <path class="thin" d="M335 110 C318 85,300 70,275 60"/>
+  <path class="thin" d="M335 95 C355 85,370 82,388 78"/>
+  <!-- girl -->
+  <circle class="light" cx="95" cy="118" r="24"/>
+  <path class="dark" d="M72 112 C80 78,120 82,119 116 C105 104,87 103,72 112 Z"/>
+  <path class="gray" d="M72 145 C95 130,120 142,125 185 L62 185 C65 165,66 153,72 145 Z"/>
+  <line class="line" x1="123" y1="160" x2="165" y2="182"/>
+  <line class="line" x1="70" y1="185" x2="58" y2="255"/>
+  <line class="line" x1="116" y1="185" x2="130" y2="255"/>
+  <line class="line" x1="58" y1="255" x2="43" y2="273"/>
+  <line class="line" x1="130" y1="255" x2="150" y2="270"/>
+  <!-- boy -->
+  <circle class="light" cx="185" cy="112" r="24"/>
+  <path class="thin" d="M165 100 C175 82,196 83,207 99"/>
+  <path class="gray" d="M160 140 C185 128,210 140,215 184 L152 184 C153 165,155 150,160 140 Z"/>
+  <line class="line" x1="155" y1="158" x2="132" y2="175"/>
+  <line class="line" x1="166" y1="184" x2="160" y2="255"/>
+  <line class="line" x1="206" y1="184" x2="220" y2="255"/>
+  <line class="line" x1="160" y1="255" x2="145" y2="272"/>
+  <line class="line" x1="220" y1="255" x2="240" y2="270"/>
+  <!-- dog -->
+  <ellipse class="light" cx="302" cy="266" rx="42" ry="26"/>
+  <circle class="light" cx="260" cy="252" r="22"/>
+  <path class="gray" d="M244 244 C228 246,230 267,247 270"/>
+  <circle cx="267" cy="248" r="3" fill="#111"/>
+  <path class="thin" d="M282 262 C300 276,320 276,335 262"/>
+  <path class="line" d="M338 258 C360 248,365 230,372 218"/>
+  <line class="line" x1="282" y1="290" x2="278" y2="318"/>
+  <line class="line" x1="320" y1="290" x2="328" y2="318"/>
+  <circle class="light" cx="279" cy="270" r="6"/>
+  <text class="text" x="25" y="330">1</text>
+
+  <!-- Panel 2: walking to the address -->
+  <line class="thin" x1="425" y1="285" x2="775" y2="285"/>
+  <path class="thin" d="M435 250 C500 230,580 232,645 250 S725 265,775 248"/>
+  <rect class="thin" x="680" y="118" width="78" height="110"/>
+  <path class="thin" d="M675 118 L720 70 L765 118"/>
+  <rect class="thin" x="708" y="166" width="25" height="62"/>
+  <rect class="thin" x="688" y="137" width="20" height="22"/>
+  <rect class="thin" x="732" y="137" width="20" height="22"/>
+  <!-- girl bending -->
+  <circle class="light" cx="500" cy="153" r="22"/>
+  <path class="dark" d="M480 148 C482 122,520 125,520 150 C507 144,492 143,480 148 Z"/>
+  <path class="gray" d="M482 178 C505 165,530 178,535 215 L475 225 C470 205,472 188,482 178 Z"/>
+  <line class="line" x1="528" y1="190" x2="570" y2="207"/>
+  <line class="line" x1="485" y1="222" x2="465" y2="270"/>
+  <line class="line" x1="525" y1="220" x2="542" y2="270"/>
+  <!-- boy holding lead -->
+  <circle class="light" cx="620" cy="115" r="24"/>
+  <path class="thin" d="M602 102 C615 83,638 88,646 106"/>
+  <path class="gray" d="M594 143 C620 130,647 142,650 188 L586 188 C588 166,590 152,594 143 Z"/>
+  <line class="line" x1="650" y1="160" x2="683" y2="165"/>
+  <line class="line" x1="602" y1="188" x2="595" y2="258"/>
+  <line class="line" x1="640" y1="188" x2="655" y2="258"/>
+  <line class="line" x1="595" y1="258" x2="578" y2="274"/>
+  <line class="line" x1="655" y1="258" x2="675" y2="272"/>
+  <!-- dog panel 2 -->
+  <ellipse class="light" cx="565" cy="258" rx="44" ry="26"/>
+  <circle class="light" cx="529" cy="242" r="22"/>
+  <path class="gray" d="M512 236 C496 242,501 263,518 262"/>
+  <circle cx="536" cy="240" r="3" fill="#111"/>
+  <circle class="light" cx="548" cy="262" r="6"/>
+  <path class="thin" d="M554 262 C590 225,638 190,683 165"/>
+  <path class="line" d="M606 254 C630 242,635 225,642 210"/>
+  <line class="line" x1="548" y1="284" x2="542" y2="318"/>
+  <line class="line" x1="582" y1="284" x2="590" y2="318"/>
+  <text class="text" x="425" y="330">2</text>
+
+  <!-- Panel 3: return home -->
+  <line class="thin" x1="825" y1="285" x2="1175" y2="285"/>
+  <rect class="thin" x="1012" y="70" width="115" height="205"/>
+  <rect class="thin" x="1044" y="132" width="48" height="143"/>
+  <circle cx="1082" cy="205" r="4" fill="#111"/>
+  <rect class="thin" x="960" y="92" width="42" height="34"/>
+  <path class="thin" d="M825 250 C875 235,930 235,980 250"/>
+  <!-- children watching -->
+  <circle class="light" cx="870" cy="150" r="21"/>
+  <path class="dark" d="M852 146 C855 122,891 125,890 150 C878 144,863 142,852 146 Z"/>
+  <path class="gray" d="M850 176 C873 165,895 176,900 217 L844 217 C845 196,846 185,850 176 Z"/>
+  <line class="line" x1="858" y1="217" x2="850" y2="275"/>
+  <line class="line" x1="894" y1="217" x2="905" y2="275"/>
+  <circle class="light" cx="930" cy="146" r="22"/>
+  <path class="thin" d="M912 134 C923 116,944 120,951 136"/>
+  <path class="gray" d="M906 174 C930 162,954 174,958 218 L900 218 C902 196,903 184,906 174 Z"/>
+  <line class="line" x1="916" y1="218" x2="910" y2="276"/>
+  <line class="line" x1="950" y1="218" x2="965" y2="276"/>
+  <!-- old woman -->
+  <circle class="light" cx="1055" cy="150" r="26"/>
+  <path class="gray" d="M1030 142 C1032 112,1078 112,1082 144 C1065 130,1045 130,1030 142 Z"/>
+  <path class="light" d="M1025 178 C1050 160,1084 174,1092 235 C1070 250,1033 248,1015 232 C1017 205,1018 190,1025 178 Z"/>
+  <line class="line" x1="1025" y1="198" x2="990" y2="235"/>
+  <line class="line" x1="1083" y1="198" x2="1110" y2="230"/>
+  <!-- dog jumping -->
+  <ellipse class="light" cx="1005" cy="248" rx="38" ry="23" transform="rotate(-12 1005 248)"/>
+  <circle class="light" cx="978" cy="226" r="20"/>
+  <path class="gray" d="M964 220 C949 221,952 242,968 244"/>
+  <circle cx="984" cy="224" r="3" fill="#111"/>
+  <path class="line" d="M1038 242 C1060 238,1070 220,1078 205"/>
+  <line class="line" x1="992" y1="270" x2="982" y2="300"/>
+  <line class="line" x1="1020" y1="266" x2="1038" y2="292"/>
+  <text class="text" x="825" y="330">3</text>
+</svg>
