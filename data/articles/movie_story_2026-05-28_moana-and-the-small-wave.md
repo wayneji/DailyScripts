@@ -1,6 +1,6 @@
 # Moana and the Small Wave
 
-![Three-panel picture prompt](./movie_story_2026-05-28_moana-and-the-small-wave-3-panel.svg)
+![Three-panel picture prompt](./movie_story_2026-05-28_moana-and-the-small-wave-3-panel.png)
 
 ## Part 1: The Calm Sea
 
