@@ -55,3 +55,25 @@ When they reached the lift, Hermione said, “See? Work is easier when people st
 Harry thought about the day. It was not a big battle. It was only a small problem in a busy place. But he learned something important. Brave people do not always fight. Sometimes they listen, help, and stay kind.
 
 At the Ministry of Magic, Harry and Draco did not become close friends. But they did work together. And that was a good start.
+
+## Useful A2 Words
+- busy
+- paper
+- file
+- lift
+- safe
+- kind
+- help
+- calm
+- work
+- friend
+
+## Reading Questions
+1. Where does Harry go with Ron and Hermione?
+2. What important problem do they find?
+3. What lesson does Harry learn?
+
+## Short Answers
+1. He goes to the Ministry of Magic.
+2. They find a missing paper from the box of files.
+3. He learns that brave people can help, listen, and stay kind.
