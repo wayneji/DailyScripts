@@ -1,5 +1,5 @@
 # Harry Potter and Malfoy at the Ministry of Magic
-
+![Three-panel picture prompt](./movie_story_2026-05-28_harry-potter-and-malfoy-at-the-ministry-of-magic-3-panel.png)
 ## Part 1: A Busy Place
 
 Harry Potter went to the Ministry of Magic with Ron and Hermione. The building was large and full of people. Doors opened and closed. Papers moved on desks. Harry had one simple job. He needed to take a box of old files to a safe room.
