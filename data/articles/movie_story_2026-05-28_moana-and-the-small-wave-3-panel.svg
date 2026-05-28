@@ -1,0 +1,129 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="380" viewBox="0 0 1200 380" role="img" aria-labelledby="title desc">
+  <title id="title">Three-panel island wave story prompt</title>
+  <desc id="desc">An original island girl sees trouble near a reef, rescues a turtle and canoe with teamwork, then returns to shore with fish.</desc>
+  <rect width="1200" height="380" fill="#f7fbff"/>
+  <style>
+    .panel{fill:#fffaf0;stroke:#111;stroke-width:4}
+    .line{fill:none;stroke:#111;stroke-width:4;stroke-linecap:round;stroke-linejoin:round}
+    .thin{fill:none;stroke:#111;stroke-width:2.5;stroke-linecap:round;stroke-linejoin:round}
+    .skin{fill:#b86f42;stroke:#111;stroke-width:2.5}
+    .hair{fill:#24150d;stroke:#111;stroke-width:2.5}
+    .shirt{fill:#1f9fb4;stroke:#111;stroke-width:2.5}
+    .helper{fill:#f2b96d;stroke:#111;stroke-width:2.5}
+    .water{fill:#77d0e8;stroke:#111;stroke-width:2.5}
+    .sand{fill:#f1d089;stroke:#111;stroke-width:2.5}
+    .leaf{fill:#4aa35e;stroke:#111;stroke-width:2}
+    .wood{fill:#9d6232;stroke:#111;stroke-width:2.5}
+    .rock{fill:#6f6f6f;stroke:#111;stroke-width:2.5}
+    .cloud{fill:#61616b;stroke:#111;stroke-width:2.5}
+    .fish{fill:#ffd84d;stroke:#111;stroke-width:1.8}
+  </style>
+
+  <rect class="panel" x="8" y="8" width="384" height="364"/>
+  <rect class="panel" x="408" y="8" width="384" height="364"/>
+  <rect class="panel" x="808" y="8" width="384" height="364"/>
+
+  <!-- Panel 1: calm beach and first problem -->
+  <defs>
+    <linearGradient id="sky1" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#ffc0b7"/>
+      <stop offset="1" stop-color="#bfefff"/>
+    </linearGradient>
+    <linearGradient id="sky2" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#bfefff"/>
+      <stop offset="1" stop-color="#d9fbff"/>
+    </linearGradient>
+  </defs>
+  <rect x="12" y="12" width="376" height="188" fill="url(#sky1)"/>
+  <path class="water" d="M12 185 C70 164,130 175,194 163 C255 151,318 157,388 139 L388 282 L12 282 Z"/>
+  <path class="sand" d="M12 252 C80 238,150 243,222 256 C280 267,335 255,388 246 L388 368 L12 368 Z"/>
+  <circle fill="#ffdd85" stroke="#111" stroke-width="2" cx="58" cy="53" r="24"/>
+  <path class="leaf" d="M16 109 C46 80,77 85,96 116 C65 111,39 119,16 109 Z"/>
+  <path class="leaf" d="M85 124 C112 95,143 105,154 137 C128 127,105 135,85 124 Z"/>
+  <path class="wood" d="M166 276 C205 250,267 250,306 277 C278 293,196 294,166 276 Z"/>
+  <path class="line" d="M186 273 C202 285,264 286,292 273"/>
+  <circle class="skin" cx="116" cy="169" r="21"/>
+  <path class="hair" d="M94 166 C97 138,134 136,142 164 C126 154,108 154,94 166 Z"/>
+  <path class="shirt" d="M96 194 C119 181,144 191,150 232 L91 232 C90 213,91 202,96 194 Z"/>
+  <line class="line" x1="145" y1="210" x2="172" y2="257"/>
+  <line class="line" x1="102" y1="232" x2="94" y2="294"/>
+  <line class="line" x1="138" y1="232" x2="148" y2="294"/>
+  <ellipse class="helper" cx="280" cy="156" rx="35" ry="21"/>
+  <circle class="skin" cx="285" cy="112" r="24"/>
+  <path fill="#5a2e16" stroke="#111" stroke-width="2.5" d="M260 110 C266 82,305 82,313 111 C297 102,277 102,260 110 Z"/>
+  <path class="helper" d="M250 137 C286 129,318 143,320 187 L242 187 C242 165,244 148,250 137 Z"/>
+  <path class="rock" d="M236 212 C270 183,325 189,346 224 C316 241,263 240,236 212 Z"/>
+  <path class="sand" d="M72 299 C76 277,99 276,107 299 C98 313,80 313,72 299 Z"/>
+  <circle fill="#f4c46a" stroke="#111" stroke-width="2" cx="91" cy="278" r="11"/>
+  <path class="thin" d="M76 288 L58 300"/>
+  <path class="cloud" d="M294 72 C303 49,331 50,341 70 C359 67,372 82,364 98 C339 95,318 99,292 95 C281 88,284 77,294 72 Z"/>
+  <path class="thin" d="M277 128 C303 119,329 119,358 129"/>
+  <path class="thin" d="M292 142 C319 134,342 136,366 146"/>
+
+  <!-- Panel 2: turtle rescue and drifting canoe -->
+  <rect x="412" y="12" width="376" height="155" fill="url(#sky2)"/>
+  <path class="water" d="M412 120 C480 104,550 115,622 101 C684 89,738 98,788 84 L788 368 L412 368 Z"/>
+  <path class="rock" d="M708 223 L748 159 L785 231 Z"/>
+  <path class="rock" d="M675 256 L720 198 L770 263 Z"/>
+  <path class="wood" d="M628 251 C662 230,714 232,747 254 C713 271,663 270,628 251 Z"/>
+  <path class="line" d="M640 248 C663 259,711 258,737 249"/>
+  <circle fill="#f4c46a" stroke="#111" stroke-width="2" cx="690" cy="226" r="12"/>
+  <path class="line" d="M623 244 C588 231,556 226,520 222"/>
+  <path class="water" d="M446 276 C472 254,516 251,542 278 C517 299,473 301,446 276 Z"/>
+  <circle fill="#58b96b" stroke="#111" stroke-width="2.5" cx="493" cy="262" r="24"/>
+  <path fill="#58b96b" stroke="#111" stroke-width="2.5" d="M475 257 C454 246,444 261,458 275"/>
+  <path fill="#58b96b" stroke="#111" stroke-width="2.5" d="M511 257 C535 247,544 264,528 276"/>
+  <circle fill="#79d678" stroke="#111" stroke-width="2.5" cx="520" cy="243" r="14"/>
+  <circle cx="525" cy="239" r="2.5" fill="#111"/>
+  <path class="thin" d="M438 236 C472 222,494 224,526 230"/>
+  <path class="thin" d="M430 249 C468 237,503 239,543 247"/>
+  <path class="wood" d="M522 219 C548 207,574 216,590 240 C559 239,538 233,522 219 Z"/>
+  <circle class="skin" cx="575" cy="153" r="21"/>
+  <path class="hair" d="M553 151 C556 124,592 124,600 151 C584 141,566 141,553 151 Z"/>
+  <path class="shirt" d="M552 178 C576 166,600 176,606 216 L547 216 C546 197,547 186,552 178 Z"/>
+  <line class="line" x1="556" y1="202" x2="520" y2="238"/>
+  <line class="line" x1="596" y1="201" x2="622" y2="244"/>
+  <line class="line" x1="560" y1="216" x2="548" y2="282"/>
+  <line class="line" x1="594" y1="216" x2="604" y2="282"/>
+  <circle class="skin" cx="458" cy="173" r="22"/>
+  <path fill="#5a2e16" stroke="#111" stroke-width="2.5" d="M434 171 C439 143,478 143,486 172 C470 162,450 161,434 171 Z"/>
+  <path class="helper" d="M430 200 C461 187,493 199,499 242 L421 242 C423 220,424 208,430 200 Z"/>
+  <line class="line" x1="493" y1="217" x2="520" y2="222"/>
+  <line class="line" x1="449" y1="242" x2="437" y2="305"/>
+  <line class="line" x1="486" y1="242" x2="498" y2="305"/>
+  <path class="thin" d="M612 187 C641 173,669 170,698 181"/>
+  <path class="thin" d="M615 202 C647 190,680 190,710 202"/>
+
+  <!-- Panel 3: return to shore, fish and lesson -->
+  <rect x="812" y="12" width="376" height="160" fill="url(#sky1)"/>
+  <path class="water" d="M812 134 C875 116,940 129,1015 111 C1082 94,1136 106,1188 89 L1188 285 L812 285 Z"/>
+  <path class="sand" d="M812 250 C880 238,949 250,1018 259 C1085 267,1132 252,1188 242 L1188 368 L812 368 Z"/>
+  <path fill="#58b96b" stroke="#111" stroke-width="2.5" d="M862 180 C890 160,927 161,952 184 C921 205,889 205,862 180 Z"/>
+  <circle fill="#79d678" stroke="#111" stroke-width="2.5" cx="959" cy="171" r="13"/>
+  <circle cx="964" cy="168" r="2.3" fill="#111"/>
+  <path class="fish" d="M1010 151 L1030 141 L1030 161 Z"/>
+  <circle class="fish" cx="1002" cy="151" r="9"/>
+  <path class="fish" d="M1055 176 L1076 166 L1076 187 Z"/>
+  <circle class="fish" cx="1047" cy="176" r="9"/>
+  <path class="fish" d="M1104 137 L1124 127 L1124 148 Z"/>
+  <circle class="fish" cx="1096" cy="137" r="9"/>
+  <path class="wood" d="M935 278 C972 252,1034 252,1074 279 C1044 295,965 296,935 278 Z"/>
+  <path class="line" d="M953 275 C977 286,1031 286,1062 276"/>
+  <circle class="skin" cx="923" cy="207" r="20"/>
+  <path class="hair" d="M903 204 C906 178,940 178,947 205 C932 195,917 195,903 204 Z"/>
+  <path class="shirt" d="M902 232 C925 220,948 231,954 270 L897 270 C896 251,897 240,902 232 Z"/>
+  <line class="line" x1="950" y1="247" x2="978" y2="271"/>
+  <circle class="skin" cx="1092" cy="201" r="23"/>
+  <path fill="#5a2e16" stroke="#111" stroke-width="2.5" d="M1068 198 C1074 170,1111 171,1118 199 C1102 189,1083 189,1068 198 Z"/>
+  <path class="helper" d="M1065 228 C1094 216,1124 228,1131 270 L1058 270 C1059 249,1061 237,1065 228 Z"/>
+  <line class="line" x1="1068" y1="248" x2="1037" y2="274"/>
+  <circle class="skin" cx="833" cy="248" r="15"/>
+  <path class="leaf" d="M817 266 C834 253,852 261,858 283 L812 283 C812 275,813 270,817 266 Z"/>
+  <circle class="skin" cx="1160" cy="245" r="15"/>
+  <path class="leaf" d="M1143 263 C1160 250,1178 260,1185 283 L1139 283 C1138 275,1139 269,1143 263 Z"/>
+  <path class="wood" d="M984 304 C1002 288,1043 288,1062 304 C1049 323,1001 323,984 304 Z"/>
+  <path class="fish" d="M1003 300 L1018 293 L1018 308 Z"/>
+  <path class="fish" d="M1033 301 L1048 294 L1048 309 Z"/>
+  <path class="thin" d="M846 134 C883 125,919 128,954 140"/>
+  <path class="thin" d="M1020 113 C1059 104,1095 107,1130 119"/>
+</svg>
