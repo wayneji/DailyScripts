@@ -1,12 +1,6 @@
-# A2 Key for Schools Writing Part 7 - Helping a Lost Dog
+# A2 Key for Schools Writing Part 7: Helping a Lost Dog
 
 ![Writing Part 7 picture prompts](./a2_writing_part7_2026-05-28_helping-a-lost-dog.svg)
-
-## Task
-
-Look at the three pictures. Write the story shown in the pictures.
-
-Write **100 words or more**.
 
 ## Sample Story
 
