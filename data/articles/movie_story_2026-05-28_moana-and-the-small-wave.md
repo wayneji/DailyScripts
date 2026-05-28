@@ -43,3 +43,25 @@ She returned to the village with a full basket of fish. The people were happy, a
 That evening, Moana sat near the water and thought about the day. She had not saved the whole world. She had only helped one turtle, one canoe, and one small problem. But she learned something important: small help can make a big difference.
 
 The sea moved softly under the moon. Moana felt proud, not because she was the strongest, but because she was kind, brave, and ready to try.
+
+## Useful A2 Words
+- beach
+- canoe
+- calm
+- help
+- small
+- brave
+- kind
+- wave
+- fish
+- team
+
+## Reading Questions
+1. Where does Moana go in the morning?
+2. What problem does Moana see near the reef?
+3. What lesson does Moana learn?
+
+## Short Answers
+1. She goes to the beach and the sea.
+2. She sees a turtle stuck near sea grass.
+3. She learns that small help can make a big difference.
