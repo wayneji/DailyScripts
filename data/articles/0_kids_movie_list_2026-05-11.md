@@ -111,7 +111,6 @@ Last reviewed: 2026-06-04
 
 ## Additional Pixar Feature Films
 
-1. A Bug's Life (1998)
 2. Monsters, Inc. (2001)
 3. Cars (2006)
 4. Ratatouille (2007)
@@ -120,7 +119,6 @@ Last reviewed: 2026-06-04
 7. Cars 2 (2011)
 8. Brave (2012)
 9. Monsters University (2013)
-10. The Good Dinosaur (2015)
 11. Cars 3 (2017)
 12. Coco (2017)
 13. Onward (2020)
