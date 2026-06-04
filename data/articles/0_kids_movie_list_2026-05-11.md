@@ -109,20 +109,49 @@ Last reviewed: 2026-06-04
 2. Paddington 2 (2017)
 3. Paddington in Peru (2024)
 
+## Additional Pixar Feature Films
+
+1. A Bug's Life (1998)
+2. Monsters, Inc. (2001)
+3. Cars (2006)
+4. Ratatouille (2007)
+5. WALL-E (2008)
+6. Up (2009)
+7. Cars 2 (2011)
+8. Brave (2012)
+9. Monsters University (2013)
+10. The Good Dinosaur (2015)
+11. Cars 3 (2017)
+12. Coco (2017)
+13. Onward (2020)
+14. Soul (2020)
+15. Luca (2021)
+16. Turning Red (2022)
+17. Elemental (2023)
+18. Elio (2025)
+19. Hoppers (2026)
+
+## Additional Requested Picks
+
+### Studio Ghibli
+
+1. Spirited Away (2001)
+2. Ponyo (2008)
+
+### Recent Animated Picks
+
+1. Nimona (2023)
+2. Little Amélie or the Character of Rain (2025)
+3. KPop Demon Hunters (2025)
+
 ## More Family Favorites
 
 These titles are still good picks, but they do not currently have a completed main feature-film series in this list.
 
 1. Tangled (2010)
-2. Brave (2012)
-3. Encanto (2021)
-4. Up (2009)
-5. Coco (2017)
-6. Luca (2021)
-7. Turning Red (2022)
-8. Onward (2020)
-9. Big Hero 6 (2014)
-10. Raya and the Last Dragon (2021)
+2. Encanto (2021)
+3. Big Hero 6 (2014)
+4. Raya and the Last Dragon (2021)
 
 ## Quick Picks
 
