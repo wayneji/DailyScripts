@@ -72,25 +72,11 @@ Last reviewed: 2026-06-04
 3. The Little Mermaid: Ariel's Beginning (2008)
 4. The Little Mermaid (2023)
 
-### The Lion King
-
-1. The Lion King (1994)
-2. The Lion King II: Simba's Pride (1998)
-3. The Lion King 1 1/2 (2004)
-4. The Lion King (2019)
-5. Mufasa: The Lion King (2024)
-
 ### Mulan
 
 1. Mulan (1998)
 2. Mulan II (2004)
 3. Mulan (2020)
-
-### The Jungle Book
-
-1. The Jungle Book (1967)
-2. The Jungle Book 2 (2003)
-3. The Jungle Book (2016)
 
 ### How to Train Your Dragon
 
