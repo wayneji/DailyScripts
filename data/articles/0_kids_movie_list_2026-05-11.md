@@ -65,13 +65,6 @@ Last reviewed: 2026-06-04
 1. Wreck-It Ralph (2012)
 2. Ralph Breaks the Internet (2018)
 
-### The Little Mermaid
-
-1. The Little Mermaid (1989)
-2. The Little Mermaid II: Return to the Sea (2000)
-3. The Little Mermaid: Ariel's Beginning (2008)
-4. The Little Mermaid (2023)
-
 ### Mulan
 
 1. Mulan (1998)
