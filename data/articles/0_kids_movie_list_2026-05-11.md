@@ -44,11 +44,8 @@ A handpicked list of kid-friendly and family-friendly movies, with the requested
 35. Big Hero 6
 36. Raya and the Last Dragon
 37. The Little Mermaid
-38. Aladdin
-39. Beauty and the Beast
 40. The Lion King
 41. Mulan
-42. The Princess and the Frog
 43. The Jungle Book
 44. How to Train Your Dragon
 45. How to Train Your Dragon 2
@@ -63,10 +60,6 @@ A handpicked list of kid-friendly and family-friendly movies, with the requested
 54. Kung Fu Panda
 55. Kung Fu Panda 2
 56. Kung Fu Panda 3
-57. The Secret Life of Pets
-58. The Secret Life of Pets 2
-59. Paddington
-60. Paddington 2
 
 ## Quick Picks
 
