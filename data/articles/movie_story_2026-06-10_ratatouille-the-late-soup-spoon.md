@@ -1,7 +1,5 @@
 # The Late Soup Spoon
 
-![Three-panel picture prompt](./movie_story_2026-06-10_ratatouille-the-late-soup-spoon-3-panel.png)
-
 ## Part 1: A Quiet Morning
 
 Remy wakes before the sun is high. The restaurant kitchen is quiet, and the silver pots shine on the wall. Linguini is already there. He is holding a list and looking worried.
@@ -83,6 +81,8 @@ Colette laughs. "Only a little. And the soup was on time."
 ## Picture Hunt
 
 There are two funny mistakes in each picture panel. Can you find all six?
+
+![Three-panel picture prompt](./movie_story_2026-06-10_ratatouille-the-late-soup-spoon-3-panel.png)
 
 ## Useful A2 Words
 
