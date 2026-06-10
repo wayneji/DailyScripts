@@ -1,7 +1,5 @@
 # The Blue Bucket Light
 
-![Three-panel picture prompt](./movie_story_2026-06-10_ponyo-the-blue-bucket-light-3-panel.png)
-
 ## Part 1: The Small Blue Bucket
 
 The morning sea is calm. Sosuke stands near the water with a small blue bucket. Ponyo sits beside him and looks at the waves.
@@ -81,6 +79,8 @@ The waves make a soft sound, and the blue light moves gently with the sea.
 ## Picture Hunt
 
 There are two funny mistakes in each picture panel. Can you find all six?
+
+![Three-panel picture prompt](./movie_story_2026-06-10_ponyo-the-blue-bucket-light-3-panel.png)
 
 ## Useful A2 Words
 
