@@ -2,7 +2,9 @@
 
 A handpicked list of kid-friendly and family-friendly movies. This version groups movies by series and completes the released feature-film entries for every movie series already mentioned in the list.
 
-Last reviewed: 2026-06-04
+Last reviewed: 2026-07-03
+
+Released movies are sorted by release year within each section, with announced future movie plans kept inside their matching series. Shorts, TV shows, and unconfirmed rumors are not included.
 
 ## Requested Series
 
@@ -29,6 +31,7 @@ Last reviewed: 2026-06-04
 
 1. Moana (2016)
 2. Moana 2 (2024)
+3. Moana (live-action) (planned for July 10, 2026)
 
 ### Inside Out
 
@@ -44,6 +47,7 @@ Last reviewed: 2026-06-04
 3. Toy Story 3 (2010)
 4. Toy Story 4 (2019)
 5. Lightyear (2022)
+6. Toy Story 5 (2026)
 
 ### Finding Nemo
 
@@ -54,11 +58,14 @@ Last reviewed: 2026-06-04
 
 1. The Incredibles (2004)
 2. Incredibles 2 (2018)
+3. Incredibles 3 (planned for June 16, 2028)
 
 ### Frozen
 
 1. Frozen (2013)
 2. Frozen II (2019)
+3. Frozen III (planned for November 24, 2027)
+4. Frozen IV (in development, release date TBA)
 
 ### Wreck-It Ralph
 
@@ -69,23 +76,25 @@ Last reviewed: 2026-06-04
 
 1. Mulan (1998)
 2. Mulan II (2004)
-3. Mulan (2020)
+3. Mulan (live-action) (2020)
 
 ### How to Train Your Dragon
 
 1. How to Train Your Dragon (2010)
 2. How to Train Your Dragon 2 (2014)
 3. How to Train Your Dragon: The Hidden World (2019)
-4. How to Train Your Dragon (2025)
+4. How to Train Your Dragon (live-action) (2025)
+5. How to Train Your Dragon 2 (live-action) (planned for June 11, 2027)
 
 ### Despicable Me
 
 1. Despicable Me (2010)
 2. Despicable Me 2 (2013)
-3. Despicable Me 3 (2017)
-4. Despicable Me 4 (2024)
-5. Minions (2015)
-6. Minions: The Rise of Gru (2022)
+3. Minions (2015)
+4. Despicable Me 3 (2017)
+5. Minions: The Rise of Gru (2022)
+6. Despicable Me 4 (2024)
+7. Minions & Monsters (2026)
 
 ### Shrek
 
@@ -95,6 +104,8 @@ Last reviewed: 2026-06-04
 4. Shrek Forever After (2010)
 5. Puss in Boots (2011)
 6. Puss in Boots: The Last Wish (2022)
+7. Shrek 5 (planned for June 30, 2027)
+8. Donkey (spin-off, expected in 2028)
 
 ### Kung Fu Panda
 
@@ -108,26 +119,40 @@ Last reviewed: 2026-06-04
 1. Paddington (2014)
 2. Paddington 2 (2017)
 3. Paddington in Peru (2024)
+4. Paddington 4 (in development, estimated for 2027 or 2028)
 
 ## Additional Pixar Feature Films
 
-2. Monsters, Inc. (2001)
-3. Cars (2006)
-4. Ratatouille (2007)
-5. WALL-E (2008)
-6. Up (2009)
-7. Cars 2 (2011)
-8. Brave (2012)
-9. Monsters University (2013)
-11. Cars 3 (2017)
-12. Coco (2017)
-13. Onward (2020)
-14. Soul (2020)
-15. Luca (2021)
-16. Turning Red (2022)
-17. Elemental (2023)
-18. Elio (2025)
-19. Hoppers (2026)
+### Monsters, Inc.
+
+1. Monsters, Inc. (2001)
+2. Monsters University (2013)
+3. Monsters, Inc. 3 (in development, release date TBA)
+
+### Cars
+
+1. Cars (2006)
+2. Cars 2 (2011)
+3. Cars 3 (2017)
+
+### Coco
+
+1. Coco (2017)
+2. Coco 2 (in development, expected in 2029)
+
+### Other Pixar Features
+
+1. Ratatouille (2007)
+2. WALL-E (2008)
+3. Up (2009)
+4. Brave (2012)
+5. Onward (2020)
+6. Soul (2020)
+7. Luca (2021)
+8. Turning Red (2022)
+9. Elemental (2023)
+10. Elio (2025)
+11. Hoppers (2026)
 
 ## Additional Requested Picks
 
@@ -147,8 +172,8 @@ Last reviewed: 2026-06-04
 These titles are still good picks, but they do not currently have a completed main feature-film series in this list.
 
 1. Tangled (2010)
-2. Encanto (2021)
-3. Big Hero 6 (2014)
+2. Big Hero 6 (2014)
+3. Encanto (2021)
 4. Raya and the Last Dragon (2021)
 
 ## Quick Picks
