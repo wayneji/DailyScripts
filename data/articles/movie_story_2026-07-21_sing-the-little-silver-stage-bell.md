@@ -82,12 +82,17 @@ There are two picture mistakes in each panel. Can you find all six?
 
 ## Reading Questions
 
-1. Where did the silver bell usually hang?
-2. What was caught under the costume box?
-3. Who sang first in the afternoon show?
+1. How did Meena first know where to look for the missing bell?
+   - A. She heard a small sound near the costume box.
+   - B. She saw the red ribbon under the piano.
+   - C. Buster showed her where the bell had rolled.
 
-## Short Answers
+2. Why did Johnny use the two silver clips?
+   - A. To join the bell to its red ribbon.
+   - B. To keep the curtain away from the wall.
+   - C. To close the old costume box.
 
-1. It hung beside the right curtain.
-2. The bell's red ribbon was caught there.
-3. A small rabbit named Pip sang first.
+3. What did Buster mean when he said that Meena helped more than the bell?
+   - A. Her kind advice gave Pip the courage to start singing.
+   - B. Her strong voice made the other singers sound better.
+   - C. Her careful search made the stage safer for everyone.
