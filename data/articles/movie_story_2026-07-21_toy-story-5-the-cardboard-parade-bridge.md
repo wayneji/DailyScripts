@@ -84,12 +84,17 @@ There are two picture mistakes in each panel. Can you find all six?
 
 ## Reading Questions
 
-1. How many paper flags stood along the road?
-2. What color was the book used as a ramp?
-3. When did Bonnie's parade begin?
+1. What was the main reason the cardboard bridge fell?
+   - A. One of its legs was already too weak.
+   - B. Rex walked across it too quickly.
+   - C. The toy wagon was too heavy for it.
 
-## Short Answers
+2. How did the green book improve the parade road?
+   - A. It kept the paper flags standing straight.
+   - B. It made a gentle ramp beside the bridge.
+   - C. It stopped the bridge from moving across the carpet.
 
-1. Five paper flags stood along the road.
-2. The book was green.
-3. The parade began before lunch.
+3. What did Rex understand at the end of the story?
+   - A. Large toys should always walk at the back.
+   - B. Fast feet make a parade more exciting.
+   - C. Being careful and working together can solve a problem.
