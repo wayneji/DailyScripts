@@ -42,7 +42,7 @@ Back in the tank, Squirtle said the students had learned more than how to arrang
 2. Why did the students look at the display from the doorway?
    - A. They wanted to check whether visitors could read it from there.
    - B. They needed to decide where Squirtle should sleep that afternoon.
-   - C. They were waiting for Mrs Malkin to bring more drawing paper.
+   - C. They were waiting for Ms Malkin to bring more drawing paper.
 
 3. What did the class show when the clip came loose?
    - A. They could use different jobs to solve a problem calmly.
