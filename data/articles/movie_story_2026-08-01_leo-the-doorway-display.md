@@ -37,7 +37,7 @@ Back in the tank, Squirtle said the students had learned more than how to arrang
 1. What was the main problem with the first display?
    - A. The class had no pictures or cards to put on it.
    - B. The many ideas were not arranged in a clear shared order.
-   - C. Mrs Malkin wanted the display in a different classroom.
+   - C. Ms Malkin wanted the display in a different classroom.
 
 2. Why did the students look at the display from the doorway?
    - A. They wanted to check whether visitors could read it from there.
