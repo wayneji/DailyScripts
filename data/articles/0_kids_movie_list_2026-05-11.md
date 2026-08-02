@@ -172,9 +172,13 @@ Released movies are sorted by release year within each section, with announced f
 These titles are still good picks, but they do not currently have a completed main feature-film series in this list.
 
 1. Tangled (2010)
-2. Big Hero 6 (2014)
-3. Encanto (2021)
-4. Raya and the Last Dragon (2021)
+2. Rio (2011)
+3. Big Hero 6 (2014)
+4. Trolls (2016)
+5. Encanto (2021)
+6. Raya and the Last Dragon (2021)
+7. The Super Mario Bros. Movie (2023)
+8. Leo (2023)
 
 ## Quick Picks
 
