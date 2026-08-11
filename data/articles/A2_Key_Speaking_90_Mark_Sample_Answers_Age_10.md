@@ -1,35 +1,71 @@
-# A2 Key for Schools Speaking Test
+# A2 Key for Schools Speaking Test — Tommaso and Greta
 
 ## Verified Examiner Flow with 90-Mark Sample Answers
 
-The examiner flow and question order below follow the sample video. The sample answers are newly written. They are correct, natural and suitable for children around 10 years old.
+The examiner flow and question order below follow the **Tommaso and Greta** sample video. The sample answers are newly written. They are correct, natural and suitable for children around 10 years old. They are not transcriptions of Tommaso’s or Greta’s answers.
 
 **90-mark practice answer:** A clear A2 answer with a simple reason or useful detail. It should sound natural, not long or memorised.
 
 > **Note:** “90-mark” is a practice label only. Cambridge does not give a percentage mark for each answer.
 
+## Roles in the Video
+
+- **Sandra — Interlocutor:** speaks to the candidates, asks the questions and controls the test.
+- **Kerry — Assessor:** listens and assesses the candidates. She does not speak in the video.
+
+## Flow at a Glance
+
+| Approximate time | Stage | Examiner flow |
+|---|---|---|
+| 0:06–0:41 | Part 1, Phase 1: Opening | Greeting, mark sheets, introductions, names, ages and homes |
+| 0:41–1:42 | Part 1, Phase 2: Food | Short questions, a longer-answer question and a follow-up |
+| 1:42–2:42 | Part 1, Phase 2: Clothes | Short questions and a longer-answer question |
+| 2:42–3:08 | Part 2, Phase 1: Instructions | Picture booklet, task, repetition and handover |
+| 3:08–4:07 | Candidate discussion | The candidates talk together about five outdoor activities |
+| 4:07–5:33 | Picture follow-ups | Opinion questions, reasons and favourite-activity questions |
+| 5:33–5:42 | Transition | The examiner collects the picture booklet |
+| 5:42–6:55 | Part 2, Phase 2 | Sea, mountains and sports questions |
+| 6:55–6:58 | Ending | The examiner ends the test |
+
 ---
 
-# Opening
+# Part 1, Phase 1 — Opening
 
-## Examiner collects the mark sheets
+## Greeting
 
 **Examiner:**
 
-> Good morning.  
+> Good morning.
+
+**90-mark sample answer:**
+
+> Good morning.
+
+---
+
+## Examiner Collects the Mark Sheets
+
+**Examiner:**
+
 > Can I have your mark sheets, please?
 
 **90-mark sample answer:**
 
 > Yes. Here you are.
 
+**Examiner:**
+
+> Thank you.
+
+No answer is required.
+
 ---
 
-## Examiner introduces the examiners
+## Examiner Introduces the Examiners
 
 **Examiner:**
 
-> I’m Sandra and this is Carrie.
+> I’m Sandra and this is Kerry.
 
 No answer is required.
 
@@ -59,7 +95,7 @@ No answer is required.
 
 ---
 
-## Candidate 1: Age
+## Candidate 2: Age
 
 **Examiner:**
 
@@ -71,39 +107,15 @@ No answer is required.
 
 ---
 
-## Candidate 1: Home
-
-**Examiner:**
-
-> Where do you live?
-
-**90-mark sample answer:**
-
-> I live in Cambridge with my family.
-
----
-
-## Candidate 2: Age
-
-**Examiner:**
-
-> Thank you. How old are you?
-
-**90-mark sample answer:**
-
-> I’m eleven years old.
-
----
-
 ## Candidate 2: Home
 
 **Examiner:**
 
-> Where do you live?
+> And where do you live?
 
 **90-mark sample answer:**
 
-> I live in Bristol. My school is near my home.
+> I live in London with my family.
 
 **Examiner:**
 
@@ -113,9 +125,39 @@ No answer is required.
 
 ---
 
-# Part 1 — Food
+## Candidate 1: Age
 
-## Topic introduction
+**Examiner:**
+
+> How old are you?
+
+**90-mark sample answer:**
+
+> I’m eleven years old.
+
+---
+
+## Candidate 1: Home
+
+**Examiner:**
+
+> Where do you live?
+
+**90-mark sample answer:**
+
+> I live in Oxford. My school is near my home.
+
+**Examiner:**
+
+> Thank you.
+
+No answer is required.
+
+---
+
+# Part 1, Phase 2 — Food
+
+## Topic Introduction
 
 **Examiner:**
 
@@ -125,7 +167,7 @@ No answer is required.
 
 ---
 
-## Candidate 1: Yesterday’s lunch
+## Candidate 1: Yesterday’s Lunch
 
 **Examiner:**
 
@@ -137,11 +179,11 @@ No answer is required.
 
 ---
 
-## Candidate 1: Breakfast time
+## Candidate 1: Breakfast Time
 
 **Examiner:**
 
-> What time do you usually have breakfast?
+> And what time do you usually have breakfast?
 
 **90-mark sample answer:**
 
@@ -149,7 +191,7 @@ No answer is required.
 
 ---
 
-## Candidate 2: Food after school
+## Candidate 2: Food After School
 
 **Examiner:**
 
@@ -173,7 +215,7 @@ No answer is required.
 
 ---
 
-## Candidate 1: Longer answer about eating with friends
+## Candidate 1: Longer Answer About Eating with Friends
 
 **Examiner:**
 
@@ -197,9 +239,9 @@ No answer is required.
 
 ---
 
-# Part 1 — Clothes
+# Part 1, Phase 2 — Clothes
 
-## Topic introduction
+## Topic Introduction
 
 **Examiner:**
 
@@ -209,7 +251,7 @@ No answer is required.
 
 ---
 
-## Candidate 2: School clothes
+## Candidate 2: School Clothes
 
 **Examiner:**
 
@@ -221,7 +263,7 @@ No answer is required.
 
 ---
 
-## Candidate 2: Favourite colour
+## Candidate 2: Favourite Colour
 
 **Examiner:**
 
@@ -233,7 +275,7 @@ No answer is required.
 
 ---
 
-## Candidate 1: Party clothes
+## Candidate 1: Party Clothes
 
 **Examiner:**
 
@@ -245,7 +287,7 @@ No answer is required.
 
 ---
 
-## Candidate 1: Buying clothes
+## Candidate 1: Buying Clothes
 
 **Examiner:**
 
@@ -257,7 +299,7 @@ No answer is required.
 
 ---
 
-## Candidate 2: Longer answer about buying clothes
+## Candidate 2: Longer Answer About Buying Clothes
 
 **Examiner:**
 
@@ -271,7 +313,7 @@ No answer is required.
 
 # Part 2, Phase 1 — Candidate Discussion
 
-## Examiner introduces the task
+## Examiner Introduces the Task
 
 The examiner places the picture booklet in front of the candidates.
 
@@ -289,11 +331,11 @@ The examiner places the picture booklet in front of the candidates.
 > Do you like these different outdoor activities?  
 > Say why or why not.  
 >  
-> All right. Now, talk together.
+> All right? Now, talk together.
 
 The candidates discuss the five pictures: having a picnic, going for a bike ride, skateboarding, swimming in a lake and going to a concert.
 
-## 90-mark sample discussion
+## 90-Mark Sample Discussion
 
 **Candidate A:**
 
@@ -349,11 +391,11 @@ The candidates discuss the five pictures: having a picnic, going for a bike ride
 
 **90-mark sample answer:**
 
-> Because you need good balance, and you have to practise a lot.
+> Because it is hard to stand on the skateboard, and you have to practise a lot.
 
 ---
 
-## Candidate 1: Swimming in a lake
+## Candidate 1: Swimming in a Lake
 
 **Examiner:**
 
@@ -375,7 +417,7 @@ The candidates discuss the five pictures: having a picnic, going for a bike ride
 
 ---
 
-## Candidate 2: Bike ride
+## Candidate 2: Bike Ride
 
 **Examiner:**
 
@@ -409,7 +451,7 @@ The candidates discuss the five pictures: having a picnic, going for a bike ride
 
 ---
 
-## Candidate 1: Favourite activity
+## Candidate 1: Favourite Activity
 
 **Examiner:**
 
@@ -421,7 +463,7 @@ The candidates discuss the five pictures: having a picnic, going for a bike ride
 
 ---
 
-## Candidate 2: Favourite activity
+## Candidate 2: Favourite Activity
 
 **Examiner:**
 
@@ -449,7 +491,7 @@ The examiner collects the picture booklet.
 
 # Part 2, Phase 2 — General Discussion
 
-## Candidate 2: Sea or mountains
+## Candidate 2: Sea or Mountains
 
 **Examiner:**
 
@@ -461,7 +503,7 @@ The examiner collects the picture booklet.
 
 ---
 
-## Candidate 1: Sea or mountains
+## Candidate 1: Sea or Mountains
 
 **Examiner:**
 
@@ -474,7 +516,7 @@ The examiner collects the picture booklet.
 
 ---
 
-## Candidate 1: Sport alone or with other people
+## Candidate 1: Sport Alone or with Other People
 
 **Examiner:**
 
@@ -496,7 +538,7 @@ The examiner collects the picture booklet.
 
 ---
 
-## Candidate 2: Sport alone or with other people
+## Candidate 2: Sport Alone or with Other People
 
 **Examiner:**
 
@@ -528,3 +570,10 @@ The examiner collects the picture booklet.
 No answer is required, but a candidate may politely say:
 
 > Thank you.
+
+---
+
+## Official References
+
+- [Cambridge English sample video: Tommaso and Greta](https://www.youtube.com/watch?v=dNiCwVR6dNU)
+- [Cambridge English examiner comments for Tommaso and Greta](https://www.cambridgeenglish.org/Images/578989-tommaso-and-greta-a2-key-for-schools.pdf)
