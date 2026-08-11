@@ -17,18 +17,19 @@ The examiner flow and question order below follow the **Luca and Federica** samp
 
 | Approximate time | Stage | Examiner flow |
 |---|---|---|
-| 0:06–0:42 | Opening | Greeting, mark sheets, introductions, names, ages and homes |
-| 0:42–1:54 | Part 1: School | Short questions, a support question and a longer-answer question |
-| 1:54–2:41 | Part 1: Home | Short questions, a longer-answer question and a follow-up |
+| 0:06–0:42 | Part 1, Phase 1: Opening | Greeting, mark sheets, introductions, names, ages and homes |
+| 0:42–1:54 | Part 1, Phase 2: School | Short questions, a support question, a longer-answer question and a follow-up |
+| 1:54–2:42 | Part 1, Phase 2: Home | Short questions, a longer-answer question and a follow-up |
 | 2:42–3:08 | Part 2, Phase 1: Instructions | Picture booklet, task, repetition and handover |
 | 3:08–4:04 | Candidate discussion | The candidates talk together about five hobbies |
 | 4:05–5:20 | Picture follow-ups | Opinion questions, reasons and favourite-hobby questions |
+| 5:20–5:26 | Transition | The examiner collects the picture booklet |
 | 5:26–6:34 | Part 2, Phase 2 | Free time and sports questions |
 | 6:36–6:40 | Ending | The examiner ends the test |
 
 ---
 
-# Opening
+# Part 1, Phase 1 — Opening
 
 ## Greeting
 
@@ -154,7 +155,7 @@ No answer is required.
 
 ---
 
-# Part 1 — School
+# Part 1, Phase 2 — School
 
 ## Topic Introduction
 
@@ -248,7 +249,7 @@ Federica hesitates, so the examiner changes the question to a yes-or-no question
 
 ---
 
-# Part 1 — Home
+# Part 1, Phase 2 — Home
 
 ## Topic Introduction
 
@@ -352,7 +353,7 @@ The examiner places the picture booklet in front of the candidates.
 >  
 > All right? Now, talk together.
 
-The candidates discuss the five pictures: playing computer games, playing an instrument, playing football, watching TV and reading.
+The candidates discuss the five pictures: playing computer games, playing an instrument, playing football, reading and painting or drawing.
 
 ## 90-Mark Sample Discussion
 
@@ -370,15 +371,15 @@ The candidates discuss the five pictures: playing computer games, playing an ins
 
 **Candidate B:**
 
-> Yes, I love playing football with my friends after school. Do you like watching TV?
+> Yes, I love playing football with my friends after school. What about reading?
 
 **Candidate A:**
 
-> Yes, I like funny programmes, but I don’t watch TV every day. I prefer reading. What about you?
+> I like adventure books, but I don’t read every day. Do you like painting or drawing?
 
 **Candidate B:**
 
-> I like reading too, especially adventure books. I think football is the best hobby.
+> Yes, I like drawing animals and using lots of colours. I think football is the best hobby.
 
 ---
 
@@ -436,7 +437,7 @@ The candidates discuss the five pictures: playing computer games, playing an ins
 
 **90-mark sample answer:**
 
-> Because I can solve problems and play with my friends.
+> Because the games are fun, and I can play them with my friends.
 
 ---
 
@@ -500,17 +501,7 @@ The examiner collects the picture booklet.
 
 **90-mark sample answer:**
 
-> I prefer spending my free time with other people, especially my friends.
-
-### Follow-up
-
-**Examiner:**
-
-> Why?
-
-**90-mark sample answer:**
-
-> Because we can talk, play games and have fun together.
+> I prefer spending my free time with other people, especially my friends, because we have fun together.
 
 ---
 
